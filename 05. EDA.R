@@ -49,9 +49,9 @@ by_dow = daily %>%
         group_by(dow) %>%
         summarize(avg = mean(trips))
 
-by_dow$weekday <- 1
-by_dow[by_dow$dow=="Sun",]$weekday <- 0 
-by_dow[by_dow$dow=="Sat",]$weekday <- 0
+by_dow$weekday <- "weekday"
+by_dow[by_dow$dow=="Sun",]$weekday <- "weekend"
+by_dow[by_dow$dow=="Sat",]$weekday <- "weekend"
 
 png(filename = "citibike/picts/trips_by_weekday.png", width = 640, height = 420)
 ggplot(data = by_dow, aes(x = dow, y = avg, fill=weekday)) +
@@ -83,4 +83,6 @@ ggplot(data = by_hour, aes(x = timestamp_for_x_axis, y = avg)) +
               strip.text = element_text(size = rel(1)),
               panel.margin = unit(1.2, "lines"))
 dev.off()
+
+
 
