@@ -86,6 +86,9 @@ ggplot(data = by_hour, aes(x = timestamp_for_x_axis, y = avg)) +
 add_credits()
 dev.off()
 
+
+
+
 by_boro = query("SELECT * FROM boros_hourly ORDER BY hour, start_boro, end_boro")
 
 by_boro = by_boro %>%
