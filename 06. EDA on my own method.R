@@ -1,4 +1,4 @@
-###### 1.month trips calculated by my own data;
+###### 1.month trips calculated by my own data;#############################
 library(dplyr);library(ggplot2)
 df$date <- as.Date(df$starttime)
 df$count <- 1
@@ -73,16 +73,26 @@ dev.off()
 
 ########## 5. hot station by monthly avg #################################
 # how many stations name & location
-station <-select(df, tripduration,start.station.id,start.station.name,end.station.id,gender,hour,date,count)
+# here is caluculation the ranks for the last 31 month, so need to load the all 25m data. 
+station <-select(df, tripduration,start.station.id,start.station.name,end.station.id,gender,date,count)
 station$ym <- format(station$date, "%Y-%m")
-by_station <- group_by(station, ym, start.station.id)
-by_station <- summarize(by_station, trips=sum(count))
-by_station  <-arrange(by_station, desc(trips))
-top10 <- filter(by_station , row_number() <= 10)
+
+by_station_start <- station %>% group_by(ym, start.station.id) %>% summarize(trips=sum(count)) %>% arrange(desc(trips))
+top10 <- filter(by_station, row_number() <= 10)
 top10$count <- 1
 top10 <- group_by(top10, start.station.id)
 a <- summarize(top10, num=sum(count))
-arrange(a, desc(num))
+rank_start <- arrange(a, desc(num))
+
+by_station_stop <- station %>% group_by(ym, end.station.id) %>% summarize(trips=sum(count)) %>% arrange(desc(trips))
+top10 <- filter(by_station_stop, row_number() <= 10)
+top10$count <- 1
+top10 <- group_by(top10, end.station.id)
+b <- summarize(top10, num=sum(count))
+rank_end <- arrange(b, desc(num))
+
+rank <- cbind(head(rank_start,15),head(rank_end,15))
+write.csv(rank, file="citibike/hot_station_ranking.csv",row.names = F)
 
 ########## 6. manhattan in and out #################################
 #df <- read.csv("C:/Users/Richard/Desktop/citibike/citibike newest data/2016citibike.csv",stringsAsFactors = F )
@@ -91,9 +101,8 @@ station <- distinct(df, end.station.name)
 uni_station <- select(station, start.station.id, start.station.name,start.station.latitude,start.station.longitude)
 names(uni_station) <- c("station.id","station.name","latitude","longitude")
 write.csv(uni_station, file="citibike/station.csv",row.names = F)
+
 #build up a unique station file. 
-
-
 one_day <- filter(df, date=="2016-03-31")
 write.csv(one_day, file="citibike/one_day.csv",row.names = F)
 
