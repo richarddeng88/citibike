@@ -232,6 +232,55 @@ new_df$age <- 2016 - new_df$birth
 
         
 ############## 8. weather and trips ##############################################
+library(RMySQL)
+mydb <- dbConnect(MySQL(), user='root', password='1234', dbname='citibike', host='localhost')
+dbListTables(mydb) 
+t <- dbSendQuery(mydb, 'select * from tripcounts')
+daily = fetch(t, n=-1)
+
+plot(df$max_temperature, df$trips) # there is no obvious outlier
+df <- filter(daily, weekday==T, weekday_non_holiday==T) #only keep weekday data
+df$tem_bucket <- floor(df$max_temperature)
+trips_by_tem <- group_by(df, tem_bucket)
+#trips_by_tem  <- mutate(trips_by_tem , mean_trips = mean(trips))
+mean <- summarize(trips_by_tem , avg_trips = mean(trips), avg_tem = mean(max_temperature), count=n())
+mean <- filter(mean, count>3)
+    
+    png("citibike/picts/8.daily_weekday_trips_vs_temperature.png", width = 640, height = 400)
+    ggplot(mean, aes(x=avg_tem, y=avg_trips))+
+        geom_line(size=1, color="darkgreen") +
+        labs(title="Avg Daily Weekday Trips vs Avg Max Temperature", x="Temperature / F", 
+             y="Avg Daily Trips")
+    dev.off()
+
+plot(df$precipitation, df$trips) # figure out the outlier and remove
+df <- filter(daily, weekday==T, weekday_non_holiday==T, precipitation<=2) 
+df$precipitation_bucket <-  cut(df$precipitation, c(0, 0.001, 0.2,0.3, 0.4, 0.6, 1, 2), right = FALSE)   
+table(df$precipitation_bucket)
+trips_by_pre <- group_by(df, precipitation_bucket)
+mean <- summarize(trips_by_pre, avg_trips=mean(trips),avg_precip = mean(precipitation))
+
+    png("citibike/picts/9.daily_weekday_trips_vs_precipitation.png", width = 640, height = 400)
+    ggplot(mean, aes(x=avg_precip, y=avg_trips))+
+        geom_line(size=1, color="darkgreen") +
+        labs(title="Avg Daily Weekday Trips vs Avg precipitation", x="Precipitation / Inch", 
+             y="Avg Daily Trips")
+    dev.off()
+
+ # figure out the outlier and remove
+plot(df$snow_depth, df$trips)  
+df <- filter(daily, weekday==T, weekday_non_holiday==T)     
+plot(df$snow_depth, df$trips)   
+table(df$snow_depth)    
+trips_by_snow <- group_by(df, snow_depth)
+mean <- summarize(trips_by_snow, avg_trips=mean(trips))
+
+    png("citibike/picts/10.daily_weekday_trips_vs_snow_depth.png", width = 640, height = 400)
+    ggplot(mean, aes(x=snow_depth, y=avg_trips))+
+        geom_line(size=1, color="darkgreen") +
+        labs(title="Avg Daily Weekday Trips vs snow_depth", x="snow_depth / Inch", 
+             y="Avg Daily Trips")
+    dev.off()
 
 
 
@@ -239,6 +288,4 @@ new_df$age <- 2016 - new_df$birth
 
 
 
-
-
-
+       
