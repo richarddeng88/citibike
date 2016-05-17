@@ -106,3 +106,139 @@ write.csv(uni_station, file="citibike/station.csv",row.names = F)
 one_day <- filter(df, date=="2016-03-31")
 write.csv(one_day, file="citibike/one_day.csv",row.names = F)
 
+######## 7. speed & time differnce estimation by gender and age ########################################################
+dis_est <- read.csv("citibike/dis_estimation.csv", stringsAsFactors = F)
+one_day <- read.csv("citibike/one_day from 6am to 10pm.csv", stringsAsFactors = F)
+
+merg <- merge(dis_est,one_day, by.x= "index", by.y="index", all.x=T, all.y = F)
+
+new_df <- select(merg, index, duration, distance, tripduration, starttime,start.station.id,bikeid, usertype,birth.year,gender)
+names(new_df) <- c('index', 'estimatd_time','distance','actual_time','starttime','station','bikeid','usertype','birth','gender')
+#new_df <- filter(new_df, distance!=0)
+
+miles_per_meter = (5280 * 12 * 2.54 / 100)
+new_df$exp_speed <- new_df$distance/new_df$estimatd_time
+new_df$act_speed <- new_df$distance/new_df$actual_time
+new_df$actual_time <- new_df$actual_time/60; new_df$estimatd_time <- new_df$estimatd_time/60
+new_df$diff <- new_df$actual_time - new_df$estimatd_time
+new_df$distance <- new_df$distance/miles_per_meter
+
+new_df$gender[new_df$gender==1] = "male"
+new_df$gender[new_df$gender==2] = "female"
+new_df$gender[new_df$gender==0] = "unknown"   
+new_df$age <- 2016 - new_df$birth
+
+# we see that there are some outliers, case that biker return the bike after a couple of days. 
+    plot(new_df$distance,new_df$diff)
+    plot(new_df$distance,new_df$actual_time)
+    plot(new_df$distance,new_df$estimatd_time)
+    # we take out those outlier to have an idea on the main points. 
+    new_df1 <- filter(new_df, actual_time <=60, gender!="unknown", distance!=0, age<90)
+    sum(is.na(new_df1$age))
+    new_df1$expected_bucket = cut(new_df1$estimatd_time, breaks = c(0, 5, 10, 15, 20, 60), right = FALSE)
+    new_df1$age_bucket = cut(new_df1$age, breaks = c(0, 22, 25, 30, 35, 40, 45, 50, 60, 100))
+    new_df1$distance_bucket = cut(new_df1$distance, breaks = c(0,1, 1.5, 2,3, 8), right = FALSE)
+    levels(new_df1$distance_bucket) = c("<1 mile", "1-2 miles", "2-3 miles", "3-4 miles",">4 miles")
+    #plot(new_df1$distance,new_df1$diff)
+    #plot(new_df1$distance,new_df1$actual_time)
+    #plot(new_df1$distance,new_df1$estimatd_time)
+    
+    ggplot(new_df1, aes(x=distance, y=diff, color=gender)) + geom_point()
+
+############## ploting speed by age, gender and distance###############
+    buck <- group_by(new_df1, distance_bucket, gender, age_bucket)
+    buck_data <-summarize(buck, 
+              mean_diff = mean(diff),
+              median_diff = median(diff),
+              sd_diff = sd(diff),
+              mean_mph = mean(act_speed),
+              median_mph = median(act_speed),
+              sd_mph = sd(act_speed),
+              count = n(),
+              mean_expected = mean(estimatd_time),
+              mean_age = mean(age))
+    
+    png(filename = "citibike/picts/5.speed_by_age_gender_distance.png",width = 640, height = 480)
+    ggplot(data = buck_data,
+           aes(x = mean_age, y = mean_mph, color = gender)) +
+        geom_line(size = 1) +
+        facet_wrap(~distance_bucket, ncol = 2) +
+        scale_x_continuous("Age") +
+        scale_y_continuous("Speed - Miles/hr\n") +
+        scale_colour_brewer(palette="Set1") +
+        theme(legend.position = "right",
+              strip.background = element_blank(),
+              strip.text = element_text(size = rel(1)),
+              panel.margin = unit(1.2, "lines"))
+    dev.off()
+    
+    png("citibike/picts/6.Estimated_Speed_by_age_gender.png", width = 640, height = 480)
+    ggplot(data = filter(buck_data,distance_bucket=="<1 mile"),
+           aes(x = mean_age, y = mean_mph, color = gender)) +
+        geom_line(size = 1) +
+        labs(title="Estimated Speed by Google Maps when distance < 1 mile", x="age", y="estimated speed") +
+        ylim(2,6) +
+        scale_colour_brewer(palette="Set1") +
+        theme(legend.position = "right",
+              strip.background = element_blank(),
+              strip.text = element_text(size = rel(1)),
+              panel.margin = unit(1.2, "lines"))
+    dev.off()
+    
+    
+    png(filename = "citibike/picts/7.time_diff_by_age_gender_distance.png", width = 640, height = 480)
+    ggplot(data = filter(buck_data, distance_bucket=="1-2 miles"),
+           aes(x = mean_age, y = median_diff, color = gender)) +
+        geom_line(size = 1) +
+        labs(title="time difference when distance=1-2 miles",x="age", y="actual time - estimated time by googlemaps") +
+        ylim(0,8)  +
+        scale_colour_brewer(palette="Set1") +
+        theme(legend.position = "right",
+              strip.background = element_blank(),
+              strip.text = element_text(size = rel(1)),
+              panel.margin = unit(1.2, "lines"))
+    dev.off()
+    
+    
+######### some interesting insigh developed from the  ######
+        use_less_time <- new_df[new_df$actual_time< new_df$estimatd_time,] 
+        dim(use_less_time)[1]/dim(new_df)[1] # 28.49% use less time than google expected
+        use_mroe_time <- new_df[new_df$actual_time >= new_df$estimatd_time,] 
+        dim(use_mroe_time )[1]/dim(new_df)[1] # 71.50% use more time that google expected
+        
+        #we found that over 98.6% of ridership are less than 1hr, 98.4% less than 50min, 98.1% less than 45min,
+        over_sometime <- new_df[new_df$actual_time >= 60,] 
+        dim(over_sometime)[1]/dim(new_df)[1] # 1.40%   over 1hr
+        over_sometime <- new_df[new_df$actual_time <= 45,] 
+        dim(over_sometime)[1]/dim(new_df)[1] # 98.06%  less 45 min
+        over_sometime <- new_df[new_df$actual_time <=30 ,] 
+        dim(over_sometime)[1]/dim(new_df)[1] # 93.2%  less 30min
+        over_sometime <- new_df[new_df$actual_time <=15 ,] 
+        dim(over_sometime)[1]/dim(new_df)[1] # 70.2%  less 15min
+        back_to_starting_point <- new_df[new_df$distance==0,] # 1.47% back to the original station
+
+        trip_mile <- new_df[new_df$distance >= 6,] 
+        dim(trip_mile )[1]/dim(new_df)[1] # 0.2%   greater then 6 miles
+        trip_mile <- new_df[new_df$distance <3,] 
+        dim(trip_mile )[1]/dim(new_df)[1] # 90%   less than 3 miles
+        trip_mile <- new_df[new_df$distance <2,] 
+        dim(trip_mile )[1]/dim(new_df)[1] # 76%% 
+        trip_mile <- new_df[new_df$distance <1.5,] 
+        dim(trip_mile )[1]/dim(new_df)[1] # 62%% 
+        trip_mile <- new_df[new_df$distance <1,] 
+        dim(trip_mile )[1]/dim(new_df)[1] # 40% 
+        trip_mile <- new_df[new_df$distance <0.5,] 
+        dim(trip_mile )[1]/dim(new_df)[1] # 10% 
+
+        
+############## 8. weather and trips ##############################################
+
+
+
+
+
+
+
+
+
+
