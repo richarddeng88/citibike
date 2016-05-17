@@ -31,6 +31,19 @@ for (i in 1:2400){
 write.csv(one_day, file="geo_for_cartodb.csv",row.names = F)
 
 
+############################ cycling time and distance estimation using googlemaps api in python#####################
 
+df1 <- read.csv("citibike/dis_estimation0516/1.csv", stringsAsFactors = F)
+a <- df[1,]
+
+for (i in 1:9) {
+    
+    url <- paste("citibike/dis_estimation0516/",i,".csv",sep="")
+    df <- read.csv(url, stringsAsFactors = F)
+    a <- rbind(a,df)
+}
+
+file <- a[-1,]
+write.csv(file, "citibike/dis_estimation.csv", row.names = F)
 
 
