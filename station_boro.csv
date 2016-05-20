@@ -1,533 +1,533 @@
-Column1,index,station.id,station.name,latitude,longitude,boro
-0,1,255,NYCBS Depot - SSP,40.646768,-74.01651,Outer Boro
-1,2,3044,Albany Ave & Fulton St,40.6800105,-73.938475,Outer Boro
-2,3,396,Lefferts Pl & Franklin Ave,40.68034,-73.95577,Outer Boro
-3,4,396,Lefferts Pl & Franklin Ave,40.68034242,-73.95576894,Outer Boro
-4,5,396,Lefferts Pl & Franklin Ave,40.68034242,-73.95576894,Outer Boro
-5,6,396,Lefferts Pl & Franklin Ave,40.68034242,-73.95576894,Outer Boro
-6,7,396,Lefferts Pl & Franklin Ave,40.68034242,-73.95576894,Outer Boro
-7,8,437,Macon St & Nostrand Ave,40.68098339,-73.95004798,Outer Boro
-8,9,436,Hancock St & Bedford Ave,40.68216564,-73.95399026,Outer Boro
-9,10,436,Hancock St & Bedford Ave,40.68216564,-73.95399026,Outer Boro
-10,11,365,Fulton St & Grand Ave,40.68223166,-73.9614583,Outer Boro
-11,12,384,Fulton St & Washington Ave,40.683048,-73.964915,Outer Boro
-12,13,384,Fulton St & Washington Ave,40.683048,-73.964915,Outer Boro
-13,14,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
-14,15,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
-15,16,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
-16,17,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
-17,18,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
-18,19,384,Fulton St & Waverly Ave,40.68317813,-73.9659641,Outer Boro
-19,20,384,Fulton St & Waverly Ave,40.68317813,-73.9659641,Outer Boro
-20,21,384,Fulton St & Waverly Ave,40.68317813,-73.9659641,Outer Boro
-21,22,384,Fulton St & Waverly Ave,40.68317813,-73.9659641,Outer Boro
-22,23,83,Atlantic Ave & Fort Greene Pl,40.68382604,-73.97632328,Outer Boro
-23,24,83,Atlantic Ave & Fort Greene Pl,40.68382604,-73.97632328,Outer Boro
-24,25,271,Ashland Pl & Hanson Pl,40.68528172,-73.97805813,Outer Boro
-25,26,271,Ashland Pl & Hanson Pl,40.68528172,-73.97805813,Outer Boro
-26,27,275,Washington Ave & Greene Ave,40.68650065,-73.96563307,Outer Boro
-27,28,120,Lexington Ave & Classon Ave,40.68676793,-73.95928168,Outer Boro
-28,29,120,Lexington Ave & Classon Ave,40.68676793,-73.95928168,Outer Boro
-29,30,298,3 Ave & Schermerhorn St,40.68683208,-73.9796772,Outer Boro
-30,31,274,Lafayette Ave & Fort Greene Pl,40.68691865,-73.976682,Outer Boro
-31,32,274,Lafayette Ave & Fort Greene Pl,40.68691865,-73.976682,Outer Boro
-32,33,416,Cumberland St & Lafayette Ave,40.68753406,-73.97265183,Outer Boro
-33,34,416,Cumberland St & Lafayette Ave,40.68753406,-73.97265183,Outer Boro
-34,35,416,Cumberland St & Lafayette Ave,40.68753406,-73.97265183,Outer Boro
-35,36,420,Clermont Ave & Lafayette Ave,40.68764484,-73.96968902,Outer Boro
-36,37,420,Clermont Ave & Lafayette Ave,40.68764484,-73.96968902,Outer Boro
-37,38,399,Lafayette Ave & St James Pl,40.68851534,-73.9647628,Outer Boro
-38,39,310,State St & Smith St,40.68926942,-73.98912867,Outer Boro
-39,40,310,State St & Smith St,40.68926942,-73.98912867,Outer Boro
-40,41,258,DeKalb Ave & Vanderbilt Ave,40.68940747,-73.96885458,Outer Boro
-41,42,3054,Greene Ave & Throop Ave,40.6894932,-73.942061,Outer Boro
-42,43,241,DeKalb Ave & S Portland Ave,40.68981035,-73.97493121,Outer Boro
-43,44,324,DeKalb Ave & Hudson Ave,40.689888,-73.981013,Outer Boro
-44,45,324,DeKalb Ave & Hudson Ave,40.689888,-73.981013,Outer Boro
-45,46,157,Henry St & Atlantic Ave,40.69089272,-73.99612349,Outer Boro
-46,47,157,Henry St & Atlantic Ave,40.69089272,-73.99612349,Outer Boro
-47,48,157,Henry St & Atlantic Ave,40.69089272,-73.99612349,Outer Boro
-48,49,157,Henry St & Atlantic Ave,40.69089272,-73.99612349,Outer Boro
-49,50,398,Atlantic Ave & Furman St,40.69165183,-73.9999786,Outer Boro
-50,51,398,Atlantic Ave & Furman St,40.69165183,-73.9999786,Outer Boro
-51,52,262,Washington Park,40.6917823,-73.9737299,Outer Boro
-52,53,244,Willoughby Ave & Hall St,40.69196035,-73.96536851,Outer Boro
-53,54,244,Willoughby Ave & Hall St,40.69196035,-73.96536851,Outer Boro
-54,55,239,Willoughby St & Fleet St,40.69196566,-73.9813018,Outer Boro
-55,56,390,Duffield St & Willoughby St,40.69221589,-73.9842844,Outer Boro
-56,57,143,Clinton St & Joralemon St,40.69239502,-73.99337909,Outer Boro
-57,58,143,Clinton St & Joralemon St,40.69239502,-73.99337909,Outer Boro
-58,59,233,Joralemon St & Adams St,40.69246277,-73.98963911,Outer Boro
-59,60,233,Joralemon St & Adams St,40.69246277,-73.98963911,Outer Boro
-60,61,233,Joralemon St & Adams St,40.69246277,-73.98963911,Outer Boro
-61,62,3181,Soissons Landing,40.692609,-74.016398,Manhattan
-62,63,3181,Soissons Landing,40.692609,-74.016398,Manhattan
-63,64,270,Adelphi St & Myrtle Ave,40.69308257,-73.97178913,Outer Boro
-64,65,270,Adelphi St & Myrtle Ave,40.69308257,-73.97178913,Outer Boro
-65,66,366,Clinton Ave & Myrtle Ave,40.693261,-73.968896,Outer Boro
-66,67,366,Clinton Ave & Myrtle Ave,40.693261,-73.968896,Outer Boro
-67,68,366,Clinton Ave & Myrtle Ave,40.693261,-73.968896,Outer Boro
-68,69,245,Myrtle Ave & St Edwards St,40.69327018,-73.97703874,Outer Boro
-69,70,373,Willoughby Ave & Walworth St,40.69331716,-73.95381995,Outer Boro
-70,71,373,Willoughby Ave & Walworth St,40.69331716,-73.95381995,Outer Boro
-71,72,3059,Pulaski St & Marcus Garvey Blvd,40.6933982,-73.939877,Outer Boro
-72,73,3059,Pulaski St & Marcus Garvey Blvd,40.6933982,-73.939877,Outer Boro
-73,74,314,Montague St & Clinton St,40.69424674,-73.99215922,Outer Boro
-74,75,3060,Willoughby Ave & Tompkins Ave,40.69425403,-73.94626915,Outer Boro
-75,76,261,Johnson St & Gold St,40.69474881,-73.98362464,Outer Boro
-76,77,233,Cadman Plaza W & Pierrepont St,40.69475701,-73.99052739,Outer Boro
-77,78,392,Jay St & Tech Pl,40.695065,-73.987167,Outer Boro
-78,79,392,Jay St & Tech Pl,40.695065,-73.987167,Outer Boro
-79,80,392,Jay St & Tech Pl,40.695065,-73.987167,Outer Boro
-80,81,406,Hicks St & Montague St,40.69512845,-73.99595065,Outer Boro
-81,82,406,Hicks St & Montague St,40.69512845,-73.99595065,Outer Boro
-82,83,3062,Myrtle Ave & Marcy Ave,40.69539817,-73.94954908,Outer Boro
-83,84,313,Washington Ave & Park Ave,40.69610226,-73.96751037,Outer Boro
-84,85,313,Washington Ave & Park Ave,40.69610226,-73.96751037,Outer Boro
-85,86,313,Washington Ave & Park Ave,40.69610226,-73.96751037,Outer Boro
-86,87,3064,Myrtle Ave & Lewis Ave,40.69681963,-73.93756926,Outer Boro
-87,88,3064,Myrtle Ave & Lewis Ave,40.69681963,-73.93756926,Outer Boro
-88,89,391,Clark St & Henry St,40.69760127,-73.99344559,Outer Boro
-89,90,242,Flushing Ave & Carlton Ave,40.69788349,-73.97350332,Outer Boro
-90,91,144,Nassau St & Navy St,40.69839895,-73.98068914,Outer Boro
-91,92,144,Nassau St & Navy St,40.69839895,-73.98068914,Outer Boro
-92,93,321,Cadman Plaza E & Red Cross Pl,40.69991755,-73.98971773,Outer Boro
-93,94,3065,Union Ave & Wallabout St,40.70029511,-73.95032283,Outer Boro
-94,95,216,Columbia Heights & Cranberry St,40.70037867,-73.99548059,Outer Boro
-95,96,216,Columbia Heights & Cranberry St,40.70037867,-73.99548059,Outer Boro
-96,97,259,South St & Whitehall St,40.70122128,-74.01234218,Manhattan
-97,98,259,South St & Whitehall St,40.70122128,-74.01234218,Manhattan
-98,99,259,South St & Whitehall St,40.70122128,-74.01234218,Manhattan
-99,100,430,York St & Jay St,40.7014851,-73.98656928,Outer Boro
-100,101,430,York St & Jay St,40.7014851,-73.98656928,Outer Boro
-101,102,430,York St & Jay St,40.7014851,-73.98656928,Outer Boro
-102,103,430,York St & Jay St,40.7014851,-73.98656928,Outer Boro
-103,104,418,Front St & Gold St,40.70224,-73.982578,Outer Boro
-104,105,418,Front St & Gold St,40.70224,-73.982578,Outer Boro
-105,106,2000,Front St & Washington St,40.70255,-73.9894,Outer Boro
-106,107,414,Pearl St & Anchorage Pl,40.70281858,-73.98765762,Outer Boro
-107,108,414,Pearl St & Anchorage Pl,40.70281858,-73.98765762,Outer Boro
-108,109,315,South St & Gouverneur Ln,40.70355,-74.0067,Manhattan
-109,110,315,South St & Gouverneur Ln,40.70355377,-74.00670227,Manhattan
-110,111,337,Old Slip & Front St,40.7037992,-74.00838676,Manhattan
-111,112,304,Broadway & Battery Pl,40.70463334,-74.01361706,Manhattan
-112,113,351,Front St & Maiden Ln,40.70530954,-74.00612572,Manhattan
-113,114,3073,Division Ave & Hooper St,40.70691254,-73.95441667,Outer Boro
-114,115,264,Maiden Ln & Pearl St,40.70706456,-74.00731853,Manhattan
-115,116,264,Maiden Ln & Pearl St,40.70706456,-74.00731853,Manhattan
-116,117,3075,Division Ave & Marcy Ave,40.70708701,-73.95796783,Outer Boro
-117,118,306,Cliff St & Fulton St,40.70823502,-74.00530063,Manhattan
-118,119,282,Kent Ave & S 11 St,40.70827295,-73.96834101,Outer Boro
-119,120,195,Liberty St & Broadway,40.70905623,-74.01043382,Manhattan
-120,121,316,Fulton St & William St,40.70955958,-74.00653609,Manhattan
-121,122,389,Broadway & Berry St,40.71044554,-73.96525063,Outer Boro
-122,123,389,Broadway & Berry St,40.71044554,-73.96525063,Outer Boro
-123,124,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
-124,125,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
-125,126,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
-126,127,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
-127,128,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
-128,129,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
-129,130,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
-130,131,224,Spruce St & Nassau St,40.71146364,-74.00552427,Manhattan
-131,132,224,Spruce St & Nassau St,40.71146364,-74.00552427,Manhattan
-132,133,224,Spruce St & Nassau St,40.71146364,-74.00552427,Manhattan
-133,134,3002,South End Ave & Liberty St,40.711512,-74.015756,Manhattan
-134,135,3081,Graham Ave & Grand St,40.711863,-73.944024,Outer Boro
-135,136,3081,Graham Ave & Grand St,40.711863,-73.944024,Outer Boro
-136,137,332,Cherry St,40.71219906,-73.97948148,Manhattan
-137,138,332,Cherry St,40.71219906,-73.97948148,Manhattan
-138,139,481,S 3 St & Bedford Ave,40.71260486,-73.96264403,Outer Boro
-139,140,387,Centre St & Chambers St,40.71273266,-74.0046073,Manhattan
-140,141,387,Centre St & Chambers St,40.71273266,-74.0046073,Manhattan
-141,142,387,Centre St & Chambers St,40.71273266,-74.0046073,Manhattan
-142,143,460,S 4 St & Wythe Ave,40.71285887,-73.96590294,Outer Boro
-143,144,471,Grand St & Havemeyer St,40.71286844,-73.95698119,Outer Boro
-144,145,471,Grand St & Havemeyer St,40.71286844,-73.95698119,Outer Boro
-145,146,417,Barclay St & Church St,40.71291224,-74.01020234,Manhattan
-146,147,308,St James Pl & Oliver St,40.71307916,-73.99851193,Manhattan
-147,148,308,St James Pl & Oliver St,40.71307916,-73.99851193,Manhattan
-148,149,319,Park Pl & Church St,40.71336124,-74.00937622,Manhattan
-149,150,319,Park Pl & Church St,40.71336124,-74.00937622,Manhattan
-150,151,295,Pike St & E Broadway,40.71406667,-73.99293911,Manhattan
-151,152,3087,Metropolitan Ave & Meeker Ave,40.71413311,-73.95234386,Outer Boro
-152,153,502,Henry St & Grand St,40.71422,-73.98135,Manhattan
-153,154,307,Canal St & Rutgers St,40.71427487,-73.98990025,Manhattan
-154,155,309,Murray St & West St,40.7149787,-74.013012,Manhattan
-155,156,309,Murray St & West St,40.7149787,-74.013012,Manhattan
-156,157,309,Murray St & West St,40.7149787,-74.013012,Manhattan
-157,158,309,Murray St & West St,40.7149787,-74.013012,Manhattan
-158,159,327,Vesey Pl & River Terrace,40.7153379,-74.01658354,Manhattan
-159,160,327,Vesey Pl & River Terrace,40.7153379,-74.01658354,Manhattan
-160,161,327,Vesey Pl & River Terrace,40.7153379,-74.01658354,Manhattan
-161,162,539,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,Outer Boro
-162,163,539,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,Outer Boro
-163,164,539,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,Outer Boro
-164,165,539,Metropolitan Ave & Bedford Ave,40.71535,-73.96024,Outer Boro
-165,166,147,Greenwich St & Warren St,40.71542197,-74.01121978,Manhattan
-166,167,350,Clinton St & Grand St,40.71559509,-73.9870295,Manhattan
-167,168,350,Clinton St & Grand St,40.71559509,-73.9870295,Manhattan
-168,169,412,Forsyth St & Canal St,40.7158155,-73.99422366,Manhattan
-169,170,356,Bialystoker Pl & Delancey St,40.71622644,-73.98261206,Manhattan
-170,171,146,Hudson St & Reade St,40.71625008,-74.0091059,Manhattan
-171,172,146,Hudson St & Reade St,40.71625008,-74.0091059,Manhattan
-172,173,146,Hudson St & Reade St,40.71625008,-74.0091059,Manhattan
-173,174,146,Hudson St & Reade St,40.71625008,-74.0091059,Manhattan
-174,175,2002,Wythe Ave & Metropolitan Ave,40.716887,-73.963198,Outer Boro
-175,176,2002,Wythe Ave & Metropolitan Ave,40.716887,-73.963198,Outer Boro
-176,177,2002,Wythe Ave & Metropolitan Ave,40.716887,-73.963198,Outer Boro
-177,178,3094,Graham Ave & Withers St,40.7169811,-73.94485918,Outer Boro
-178,179,311,Norfolk St & Broome St,40.7172274,-73.98802084,Manhattan
-179,180,3093,N 6 St & Bedford Ave,40.71745169,-73.95850939,Outer Boro
-180,181,276,Duane St & Greenwich St,40.71748752,-74.0104554,Manhattan
-181,182,426,West St & Chambers St,40.71754834,-74.01322069,Manhattan
-182,183,426,West St & Chambers St,40.71754834,-74.01322069,Manhattan
-183,184,426,West St & Chambers St,40.71754834,-74.01322069,Manhattan
-184,185,426,West St & Chambers St,40.71754834,-74.01322069,Manhattan
-185,186,3090,N 8 St & Driggs Ave,40.71774592,-73.95600096,Outer Boro
-186,187,341,Stanton St & Mangin St,40.71782143,-73.97628939,Manhattan
-187,188,341,Stanton St & Mangin St,40.71782143,-73.97628939,Manhattan
-188,189,349,Rivington St & Ridge St,40.71850211,-73.98329859,Manhattan
-189,190,531,Forsyth St & Broome St,40.71893904,-73.99266288,Manhattan
-190,191,531,Forsyth St & Broome St,40.71893904,-73.99266288,Manhattan
-191,192,531,Forsyth St & Broome St,40.71893904,-73.99266288,Manhattan
-192,193,3092,Berry St & N 8 St,40.7190095,-73.95852515,Outer Boro
-193,194,3092,Berry St & N 8 St,40.7190095,-73.95852515,Outer Boro
-194,195,268,Howard St & Centre St,40.71910537,-73.99973337,Manhattan
-195,196,268,Howard St & Centre St,40.71910537,-73.99973337,Manhattan
-196,197,79,Franklin St & W Broadway,40.71911552,-74.00666661,Manhattan
-197,198,79,Franklin St & W Broadway,40.71911552,-74.00666661,Manhattan
-198,199,79,Franklin St & W Broadway,40.71911552,-74.00666661,Manhattan
-199,200,401,Allen St & Rivington St,40.72019576,-73.98997825,Manhattan
-200,201,401,Allen St & Rivington St,40.72019576,-73.98997825,Manhattan
-201,202,410,Suffolk St & Stanton St,40.72066,-73.98518,Manhattan
-202,203,410,Suffolk St & Stanton St,40.72066442,-73.98517977,Manhattan
-203,204,410,Suffolk St & Stanton St,40.72066442,-73.98517977,Manhattan
-204,205,473,Rivington St & Chrystie St,40.72110063,-73.9919254,Manhattan
-205,206,473,Rivington St & Chrystie St,40.72110063,-73.9919254,Manhattan
-206,207,3099,Leonard St & Manhattan Ave,40.7215224,-73.94898266,Outer Boro
-207,208,3103,N 11 St & Wythe Ave,40.72153267,-73.95782357,Outer Boro
-208,209,3102,Driggs Ave & Lorimer St,40.72179134,-73.9504154,Outer Boro
-209,210,3102,Driggs Ave & Lorimer St,40.72179134,-73.9504154,Outer Boro
-210,211,151,Cleveland Pl & Spring St,40.7218158,-73.99720307,Manhattan
-211,212,151,Cleveland Pl & Spring St,40.7218158,-73.99720307,Manhattan
-212,213,151,Cleveland Pl & Spring St,40.7218158,-73.99720307,Manhattan
-213,214,151,Cleveland Pl & Spring St,40.7218158,-73.99720307,Manhattan
-214,215,248,Laight St & Hudson St,40.72185379,-74.00771779,Manhattan
-215,216,248,Laight St & Hudson St,40.72185379,-74.00771779,Manhattan
-216,217,312,Allen St & E Houston St,40.722055,-73.989111,Manhattan
-217,218,312,Allen St & E Houston St,40.722055,-73.989111,Manhattan
-218,219,301,E 2 St & Avenue B,40.72217444,-73.98368779,Manhattan
-219,220,301,E 2 St & Avenue B,40.72217444,-73.98368779,Manhattan
-220,221,411,E 6 St & Avenue D,40.72228087,-73.97668709,Manhattan
-221,222,265,Stanton St & Chrystie St,40.72229346,-73.99147535,Manhattan
-222,223,265,Stanton St & Chrystie St,40.72229346,-73.99147535,Manhattan
-223,224,377,6 Ave & Canal St,40.72243797,-74.00566443,Manhattan
-224,225,393,E 5 St & Avenue C,40.72299208,-73.97995466,Manhattan
-225,226,3107,Bedford Ave & Nassau Ave,40.72311651,-73.95212324,Outer Boro
-226,227,251,Mott St & Prince St,40.72317958,-73.99480012,Manhattan
-227,228,251,Mott St & Prince St,40.72317958,-73.99480012,Manhattan
-228,229,251,Mott St & Prince St,40.72317958,-73.99480012,Manhattan
-229,230,3106,Driggs Ave & N Henry St,40.72325,-73.94308,Outer Boro
-230,231,3106,Driggs Ave & N Henry St,40.72325,-73.94308,Outer Boro
-231,232,303,Mercer St & Spring St,40.72362738,-73.99949601,Manhattan
-232,233,328,Watts St & Greenwich St,40.72405549,-74.00965965,Manhattan
-233,234,2004,6 Ave & Broome St,40.724399,-74.004704,Manhattan
-234,235,2004,6 Ave & Broome St,40.724399,-74.004704,Manhattan
-235,236,317,E 6 St & Avenue B,40.72453734,-73.98185424,Manhattan
-236,237,317,E 6 St & Avenue B,40.72453734,-73.98185424,Manhattan
-237,238,250,Lafayette St & Jersey St,40.72456089,-73.99565293,Manhattan
-238,239,428,E 3 St & 1 Ave,40.72467721,-73.98783413,Manhattan
-239,240,428,E 3 St & 1 Ave,40.72467721,-73.98783413,Manhattan
-240,241,428,E 3 St & 1 Ave,40.72467721,-73.98783413,Manhattan
-241,242,428,E 3 St & 1 Ave,40.72467721,-73.98783413,Manhattan
-242,243,348,W Broadway & Spring St,40.72490985,-74.00154702,Manhattan
-243,244,348,W Broadway & Spring St,40.72490985,-74.00154702,Manhattan
-244,245,403,E 2 St & 2 Ave,40.72502876,-73.99069656,Manhattan
-245,246,403,E 2 St & 2 Ave,40.72502876,-73.99069656,Manhattan
-246,247,403,E 2 St & 2 Ave,40.72502876,-73.99069656,Manhattan
-247,248,403,E 2 St & 2 Ave,40.72502876,-73.99069656,Manhattan
-248,249,3108,Nassau Ave & Russell St,40.72557,-73.94434,Outer Boro
-249,250,3111,Norman Ave & Leonard St,40.7258483,-73.95064893,Outer Boro
-250,251,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
-251,252,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
-252,253,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
-253,254,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
-254,255,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
-255,256,432,E 7 St & Avenue A,40.72622,-73.9838,Manhattan
-256,257,439,E 4 St & 2 Ave,40.7262807,-73.98978041,Manhattan
-257,258,439,E 4 St & 2 Ave,40.7262807,-73.98978041,Manhattan
-258,259,375,Mercer St & Bleecker St,40.72679454,-73.99695094,Manhattan
-259,260,375,Mercer St & Bleecker St,40.72679454,-73.99695094,Manhattan
-260,261,375,Mercer St & Bleecker St,40.72679454,-73.99695094,Manhattan
-261,262,128,MacDougal St & Prince St,40.72710258,-74.00297088,Manhattan
-262,263,128,MacDougal St & Prince St,40.72710258,-74.00297088,Manhattan
-263,264,445,E 10 St & Avenue A,40.72740794,-73.98142006,Manhattan
-264,265,229,Great Jones St,40.72743423,-73.99379025,Manhattan
-265,266,438,St Marks Pl & 1 Ave,40.72779126,-73.98564945,Manhattan
-266,267,300,Shevchenko Pl & E 6 St,40.728145,-73.990214,Manhattan
-267,268,236,St Marks Pl & 2 Ave,40.7284186,-73.98713956,Manhattan
-268,269,236,St Marks Pl & 2 Ave,40.7284186,-73.98713956,Manhattan
-269,270,347,W Houston St & Hudson St,40.72873888,-74.00748842,Manhattan
-270,271,335,Washington Pl & Broadway,40.72903917,-73.99404649,Manhattan
-271,272,335,Washington Pl & Broadway,40.72903917,-73.99404649,Manhattan
-272,273,161,LaGuardia Pl & W 3 St,40.72917025,-73.99810231,Manhattan
-273,274,161,LaGuardia Pl & W 3 St,40.72917025,-73.99810231,Manhattan
-274,275,161,LaGuardia Pl & W 3 St,40.72917025,-73.99810231,Manhattan
-275,276,511,E 14 St & Avenue B,40.72938685,-73.97772429,Manhattan
-276,277,511,E 14 St & Avenue B,40.72938685,-73.97772429,Manhattan
-277,278,511,E 14 St & Avenue B,40.72938685,-73.97772429,Manhattan
-278,279,326,E 11 St & 1 Ave,40.72953837,-73.98426726,Manhattan
-279,280,3113,Greenpoint Ave & Manhattan Ave,40.73026,-73.95394,Outer Boro
-280,281,3113,Greenpoint Ave & Manhattan Ave,40.73026,-73.95394,Outer Boro
-281,282,293,Lafayette St & E 8 St,40.73028666,-73.9907647,Manhattan
-282,283,293,Lafayette St & E 8 St,40.73028666,-73.9907647,Manhattan
-283,284,293,Lafayette St & E 8 St,40.73028666,-73.9907647,Manhattan
-284,285,368,Carmine St & 6 Ave,40.73038599,-74.00214988,Manhattan
-285,286,368,Carmine St & 6 Ave,40.73038599,-74.00214988,Manhattan
-286,287,368,Carmine St & 6 Ave,40.73038599,-74.00214988,Manhattan
-287,288,368,Carmine St & 6 Ave,40.73038599,-74.00214988,Manhattan
-288,289,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
-289,290,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
-290,291,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
-291,292,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
-292,293,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
-293,294,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
-294,295,294,Washington Square E,40.73049393,-73.9957214,Manhattan
-295,296,127,Barrow St & Hudson St,40.73172428,-74.00674436,Manhattan
-296,297,127,Barrow St & Hudson St,40.73172428,-74.00674436,Manhattan
-297,298,127,Barrow St & Hudson St,40.73172428,-74.00674436,Manhattan
-298,299,127,Barrow St & Hudson St,40.73172428,-74.00674436,Manhattan
-299,300,504,1 Ave & E 15 St,40.73221853,-73.98165557,Manhattan
-300,301,504,1 Ave & E 15 St,40.73221853,-73.98165557,Manhattan
-301,302,504,1 Ave & E 15 St,40.73221853,-73.98165557,Manhattan
-302,303,504,1 Ave & E 15 St,40.73222,-73.98166,Manhattan
-303,304,483,E 12 St & 3 Ave,40.73223272,-73.98889957,Manhattan
-304,305,483,E 12 St & 3 Ave,40.73223272,-73.98889957,Manhattan
-305,306,483,E 12 St & 3 Ave,40.73223272,-73.98889957,Manhattan
-306,307,483,E 12 St & 3 Ave,40.73223272,-73.98889957,Manhattan
-307,308,3115,India St & Manhattan Ave,40.73232194,-73.9550858,Outer Boro
-308,309,357,E 11 St & Broadway,40.73261787,-73.99158043,Manhattan
-309,310,357,E 11 St & Broadway,40.73261787,-73.99158043,Manhattan
-310,311,357,E 11 St & Broadway,40.73261787,-73.99158043,Manhattan
-311,312,358,Christopher St & Greenwich St,40.73291553,-74.00711384,Manhattan
-312,313,487,E 20 St & FDR Drive,40.73314259,-73.97573881,Manhattan
-313,314,380,W 4 St & 7 Ave S,40.73401143,-74.00293877,Manhattan
-314,315,380,W 4 St & 7 Ave S,40.73401143,-74.00293877,Manhattan
-315,316,285,Broadway & E 14 St,40.73454567,-73.99074142,Manhattan
-316,317,382,University Pl & E 14 St,40.73492695,-73.99200509,Manhattan
-317,318,382,University Pl & E 14 St,40.73492695,-73.99200509,Manhattan
-318,319,382,University Pl & E 14 St,40.73492695,-73.99200509,Manhattan
-319,320,383,Greenwich Ave & Charles St,40.735238,-74.000271,Manhattan
-320,321,247,Perry St & Bleecker St,40.73535398,-74.00483091,Manhattan
-321,322,325,E 19 St & 3 Ave,40.73624527,-73.98473765,Manhattan
-322,323,345,W 13 St & 6 Ave,40.73649403,-73.99704374,Manhattan
-323,324,345,W 13 St & 6 Ave,40.73649403,-73.99704374,Manhattan
-324,325,345,W 13 St & 6 Ave,40.73649403,-73.99704374,Manhattan
-325,326,497,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan
-326,327,497,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan
-327,328,497,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan
-328,329,497,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan
-329,330,496,E 16 St & 5 Ave,40.73726186,-73.99238967,Manhattan
-330,331,284,Greenwich Ave & 8 Ave,40.73901691,-74.00263761,Manhattan
-331,332,284,Greenwich Ave & 8 Ave,40.73901691,-74.00263761,Manhattan
-332,333,507,E 25 St & 2 Ave,40.73912601,-73.97973776,Manhattan
-333,334,507,E 25 St & 2 Ave,40.73912601,-73.97973776,Manhattan
-334,335,507,E 25 St & 2 Ave,40.73912601,-73.97973776,Manhattan
-335,336,405,Washington St & Gansevoort St,40.739323,-74.008119,Manhattan
-336,337,405,Washington St & Gansevoort St,40.739323,-74.008119,Manhattan
-337,338,405,Washington St & Gansevoort St,40.739323,-74.008119,Manhattan
-338,339,482,W 15 St & 7 Ave,40.73935542,-73.99931783,Manhattan
-339,340,482,W 15 St & 7 Ave,40.73935542,-73.99931783,Manhattan
-340,341,2012,E 27 St & 1 Ave,40.739445,-73.976806,Manhattan
-341,342,168,W 18 St & 6 Ave,40.73971301,-73.99456405,Manhattan
-342,343,168,W 18 St & 6 Ave,40.73971301,-73.99456405,Manhattan
-343,344,402,Broadway & E 22 St,40.7403432,-73.98955109,Manhattan
-344,345,404,9 Ave & W 14 St,40.7405826,-74.00550867,Manhattan
-345,346,404,9 Ave & W 14 St,40.7405826,-74.00550867,Manhattan
-346,347,404,9 Ave & W 14 St,40.7405826,-74.00550867,Manhattan
-347,348,491,E 24 St & Park Ave S,40.74096374,-73.98602213,Manhattan
-348,349,540,Lexington Ave & E 26 St,40.74147286,-73.98320928,Manhattan
-349,350,540,Lexington Ave & E 26 St,40.74147286,-73.98320928,Manhattan
-350,351,3120,Center Blvd & Borden Ave,40.74161,-73.96044,Outer Boro
-351,352,435,W 21 St & 6 Ave,40.74173969,-73.99415556,Manhattan
-352,353,116,W 17 St & 8 Ave,40.74177603,-74.00149746,Manhattan
-353,354,225,W 14 St & The High Line,40.74195138,-74.00803013,Manhattan
-354,355,225,W 14 St & The High Line,40.74195138,-74.00803013,Manhattan
-355,356,225,W 14 St & The High Line,40.74195138,-74.00803013,Manhattan
-356,357,463,9 Ave & W 16 St,40.74207,-74.00443,Manhattan
-357,358,3119,Vernon Blvd & 50 Ave,40.74232744,-73.95411749,Outer Boro
-358,359,444,Broadway & W 24 St,40.74235,-73.98915,Manhattan
-359,360,444,Broadway & W 24 St,40.7423543,-73.98915076,Manhattan
-360,361,444,Broadway & W 24 St,40.7423543,-73.98915076,Manhattan
-361,362,334,W 20 St & 7 Ave,40.74238787,-73.99726235,Manhattan
-362,363,334,W 20 St & 7 Ave,40.74238787,-73.99726235,Manhattan
-363,364,334,W 20 St & 7 Ave,40.74238787,-73.99726235,Manhattan
-364,365,334,W 20 St & 7 Ave,40.74238787,-73.99726235,Manhattan
-365,366,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
-366,367,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
-367,368,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
-368,369,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
-369,370,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
-370,371,434,9 Ave & W 18 St,40.74317449,-74.00366443,Manhattan
-371,372,470,W 20 St & 8 Ave,40.74345335,-74.00004031,Manhattan
-372,373,470,W 20 St & 8 Ave,40.74345335,-74.00004031,Manhattan
-373,374,476,E 31 St & 3 Ave,40.74394314,-73.97966069,Manhattan
-374,375,476,E 31 St & 3 Ave,40.74394314,-73.97966069,Manhattan
-375,376,466,W 25 St & 6 Ave,40.74395411,-73.99144871,Manhattan
-376,377,466,W 25 St & 6 Ave,40.74395411,-73.99144871,Manhattan
-377,378,501,FDR Drive & E 35 St,40.744219,-73.97121214,Manhattan
-378,379,546,E 30 St & Park Ave S,40.74444921,-73.98303529,Manhattan
-379,380,546,E 30 St & Park Ave S,40.74444921,-73.98303529,Manhattan
-380,381,3123,31 St & Thomson Ave,40.74469738,-73.93540375,Outer Boro
-381,382,453,W 22 St & 8 Ave,40.74475148,-73.99915362,Manhattan
-382,383,446,W 24 St & 7 Ave,40.74487634,-73.99529885,Manhattan
-383,384,474,5 Ave & E 29 St,40.7451677,-73.98683077,Manhattan
-384,385,509,9 Ave & W 22 St,40.7454973,-74.00197139,Manhattan
-385,386,509,9 Ave & W 22 St,40.7454973,-74.00197139,Manhattan
-386,387,472,E 32 St & Park Ave,40.7457121,-73.98194829,Manhattan
-387,388,472,E 32 St & Park Ave,40.7457121,-73.98194829,Manhattan
-388,389,486,Broadway & W 29 St,40.7462009,-73.98855723,Manhattan
-389,390,462,W 22 St & 10 Ave,40.74691959,-74.00451887,Manhattan
-390,391,462,W 22 St & 10 Ave,40.74691959,-74.00451887,Manhattan
-391,392,3126,44 Dr & Jackson Ave,40.74718234,-73.9432635,Outer Boro
-392,393,3126,44 Dr & Jackson Ave,40.74718234,-73.9432635,Outer Boro
-393,394,3124,46 Ave & 5 St,40.74731,-73.95451,Outer Boro
-394,395,3124,46 Ave & 5 St,40.74731,-73.95451,Outer Boro
-395,396,494,W 26 St & 8 Ave,40.74734825,-73.99723551,Manhattan
-396,397,494,W 26 St & 8 Ave,40.74734825,-73.99723551,Manhattan
-397,398,160,E 37 St & Lexington Ave,40.748238,-73.978311,Manhattan
-398,399,498,Broadway & W 32 St,40.74854862,-73.98808416,Manhattan
-399,400,167,E 39 St & 3 Ave,40.7489006,-73.97604882,Manhattan
-400,401,167,E 39 St & 3 Ave,40.7489006,-73.97604882,Manhattan
-401,402,379,W 31 St & 7 Ave,40.749156,-73.9916,Manhattan
-402,403,379,W 31 St & 7 Ave,40.749156,-73.9916,Manhattan
-403,404,379,W 31 St & 7 Ave,40.749156,-73.9916,Manhattan
-404,405,3127,9 St & 44 Rd,40.74966,-73.9521,Outer Boro
-405,406,388,W 26 St & 10 Ave,40.74971775,-74.00295035,Manhattan
-406,407,388,W 26 St & 10 Ave,40.74971775,-74.00295035,Manhattan
-407,408,388,W 26 St & 10 Ave,40.74972,-74.00295,Manhattan
-408,409,455,1 Ave & E 44 St,40.75001986,-73.96905301,Manhattan
-409,410,512,W 29 St & 9 Ave,40.7500727,-73.99839279,Manhattan
-410,411,512,W 29 St & 9 Ave,40.7500727,-73.99839279,Manhattan
-411,412,492,W 33 St & 7 Ave,40.75019995,-73.99093085,Manhattan
-412,413,521,8 Ave & W 31 St,40.75044999,-73.99481051,Manhattan
-413,414,521,8 Ave & W 31 St,40.75044999,-73.99481051,Manhattan
-414,415,521,8 Ave & W 31 St,40.75044999,-73.99481051,Manhattan
-415,416,3128,21 St & 43 Ave,40.75052534,-73.94594845,Outer Boro
-416,417,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
-417,418,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
-418,419,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
-419,420,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
-420,421,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
-421,422,458,11 Ave & W 27 St,40.751396,-74.005226,Manhattan
-422,423,458,11 Ave & W 27 St,40.751396,-74.005226,Manhattan
-423,424,458,11 Ave & W 27 St,40.751396,-74.005226,Manhattan
-424,425,517,Pershing Square S,40.75149263,-73.97798848,Manhattan
-425,426,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
-426,427,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
-427,428,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
-428,429,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
-429,430,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
-430,431,517,Pershing Square South,40.751581,-73.97791,Manhattan
-431,432,517,Pershing Square South,40.751581,-73.97791,Manhattan
-432,433,362,Broadway & W 37 St,40.75172632,-73.98753523,Manhattan
-433,434,519,Pershing Square North,40.751873,-73.977706,Manhattan
-434,435,519,Pershing Square North,40.751873,-73.977706,Manhattan
-435,436,519,Pershing Square N,40.75188406,-73.97770164,Manhattan
-436,437,519,Pershing Square N,40.75188406,-73.97770164,Manhattan
-437,438,516,E 47 St & 1 Ave,40.75206862,-73.96784384,Manhattan
-438,439,533,Broadway & W 39 St,40.75299641,-73.98721619,Manhattan
-439,440,533,Broadway & W 39 St,40.75299641,-73.98721619,Manhattan
-440,441,318,E 43 St & Vanderbilt Ave,40.75320159,-73.9779874,Manhattan
-441,442,318,E 43 St & Vanderbilt Ave,40.75320159,-73.9779874,Manhattan
-442,443,164,E 47 St & 2 Ave,40.75323098,-73.97032517,Manhattan
-443,444,164,E 47 St & 2 Ave,40.75323098,-73.97032517,Manhattan
-444,445,164,E 47 St & 2 Ave,40.75323098,-73.97032517,Manhattan
-445,446,454,E 51 St & 1 Ave,40.75455731,-73.96592976,Manhattan
-446,447,523,W 38 St & 8 Ave,40.75466591,-73.99138152,Manhattan
-447,448,523,W 38 St & 8 Ave,40.75466591,-73.99138152,Manhattan
-448,449,359,E 47 St & Park Ave,40.75510267,-73.97498696,Manhattan
-449,450,359,E 47 St & Park Ave,40.75510267,-73.97498696,Manhattan
-450,451,465,Broadway & W 41 St,40.75513557,-73.98658032,Manhattan
-451,452,465,Broadway & W 41 St,40.75513557,-73.98658032,Manhattan
-452,453,477,W 41 St & 8 Ave,40.75640548,-73.9900262,Manhattan
-453,454,477,W 41 St & 8 Ave,40.75640548,-73.9900262,Manhattan
-454,455,477,W 41 St & 8 Ave,40.75640548,-73.9900262,Manhattan
-455,456,488,W 39 St & 9 Ave,40.75645824,-73.99372222,Manhattan
-456,457,448,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan
-457,458,448,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan
-458,459,448,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan
-459,460,448,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan
-460,461,529,W 42 St & 8 Ave,40.7575699,-73.99098507,Manhattan
-461,462,385,E 55 St & 2 Ave,40.75797322,-73.96603308,Manhattan
-462,463,367,E 53 St & Lexington Ave,40.75828065,-73.97069431,Manhattan
-463,464,3236,PABT Valet,40.75898481,-73.99379969,Manhattan
-464,465,464,E 56 St & 3 Ave,40.75934501,-73.96759673,Manhattan
-465,466,2023,E 55 St & Lexington Ave,40.75968085,-73.97031366,Manhattan
-466,467,520,W 52 St & 5 Ave,40.75992262,-73.97648516,Manhattan
-467,468,515,W 43 St & 10 Ave,40.76009437,-73.99461843,Manhattan
-468,469,479,9 Ave & W 45 St,40.76019252,-73.9912551,Manhattan
-469,470,479,9 Ave & W 45 St,40.76019252,-73.9912551,Manhattan
-470,471,290,2 Ave & E 58 St,40.76020258,-73.96478473,Manhattan
-471,472,290,2 Ave & E 58 St,40.76020258,-73.96478473,Manhattan
-472,473,290,2 Ave & E 58 St,40.76020258,-73.96478473,Manhattan
-473,474,173,Broadway & W 49 St,40.76064679,-73.98442659,Manhattan
-474,475,173,Broadway & W 49 St,40.76064679,-73.98442659,Manhattan
-475,476,510,W 51 St & 6 Ave,40.7606597,-73.98042047,Manhattan
-476,477,305,E 58 St & 3 Ave,40.76095756,-73.96724467,Manhattan
-477,478,137,E 56 St & Madison Ave,40.761628,-73.972924,Manhattan
-478,479,137,E 56 St & Madison Ave,40.761628,-73.972924,Manhattan
-479,480,450,W 49 St & 8 Ave,40.76227205,-73.98788205,Manhattan
-480,481,450,W 49 St & 8 Ave,40.76227205,-73.98788205,Manhattan
-481,482,500,Broadway & W 51 St,40.76228826,-73.98336183,Manhattan
-482,483,500,Broadway & W 51 St,40.76228826,-73.98336183,Manhattan
-483,484,495,W 47 St & 10 Ave,40.76269882,-73.99301222,Manhattan
-484,485,495,W 47 St & 10 Ave,40.76269882,-73.99301222,Manhattan
-485,486,495,W 47 St & 10 Ave,40.76269882,-73.99301222,Manhattan
-486,487,508,W 46 St & 11 Ave,40.76341379,-73.99667444,Manhattan
-487,488,508,W 46 St & 11 Ave,40.76341379,-73.99667444,Manhattan
-488,489,508,W 46 St & 11 Ave,40.76341379,-73.99667444,Manhattan
-489,490,469,Broadway & W 53 St,40.76344058,-73.98268129,Manhattan
-490,491,469,Broadway & W 53 St,40.76344058,-73.98268129,Manhattan
-491,492,447,8 Ave & W 52 St,40.76370739,-73.9851615,Manhattan
-492,493,281,Grand Army Plaza & Central Park S,40.7643971,-73.97371465,Manhattan
-493,494,281,Grand Army Plaza & Central Park S,40.7643971,-73.97371465,Manhattan
-494,495,449,W 52 St & 9 Ave,40.76461837,-73.98789473,Manhattan
-495,496,449,W 52 St & 9 Ave,40.76461837,-73.98789473,Manhattan
-496,497,449,W 52 St & 9 Ave,40.76461837,-73.98789473,Manhattan
-497,498,468,Broadway & W 55 St,40.7652654,-73.98192338,Manhattan
-498,499,468,Broadway & W 55 St,40.7652654,-73.98192338,Manhattan
-499,500,423,W 54 St & 9 Ave,40.76584941,-73.98690506,Manhattan
-500,501,2006,Central Park S & 6 Ave,40.76590936,-73.97634151,Manhattan
-501,502,2006,Central Park S & 6 Ave,40.76590936,-73.97634151,Manhattan
-502,503,480,W 53 St & 10 Ave,40.76669671,-73.99061728,Manhattan
-503,504,457,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan
-504,505,457,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan
-505,506,457,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan
-506,507,457,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan
-507,508,72,W 52 St & 11 Ave,40.76727216,-73.99392888,Manhattan
-508,509,72,W 52 St & 11 Ave,40.76727216,-73.99392888,Manhattan
-509,510,72,W 52 St & 11 Ave,40.76727216,-73.99392888,Manhattan
-510,511,72,W 52 St & 11 Ave,40.76727216,-73.99392888,Manhattan
-511,512,3133,E 67 St & Lexington Ave,40.76734259,-73.96485865,Manhattan
-512,513,3133,E 67 St & Lexington Ave,40.76734259,-73.96485865,Manhattan
-513,514,513,W 56 St & 10 Ave,40.768254,-73.988639,Manhattan
-514,515,513,W 56 St & 10 Ave,40.768254,-73.988639,Manhattan
-515,516,499,Broadway & W 60 St,40.76915505,-73.98191841,Manhattan
-516,517,499,Broadway & W 60 St,40.76915505,-73.98191841,Manhattan
-517,518,499,Broadway & W 60 St,40.76915505,-73.98191841,Manhattan
-518,519,499,Broadway & W 60 St,40.76915505,-73.98191841,Manhattan
-519,520,422,W 59 St & 10 Ave,40.770513,-73.988038,Manhattan
-520,521,3139,E 72 St & Park Ave,40.77122923,-73.96432627,Manhattan
-521,522,3163,Central Park West & W 68 St,40.7734066,-73.97782542,Manhattan
-522,523,3150,E 85 St & York Ave,40.77536905,-73.94803392,Manhattan
-523,524,3146,E 81 St & 3 Ave,40.77573034,-73.9567526,Manhattan
-524,525,3165,Central Park West & W 72 St,40.77575319,-73.97603963,Manhattan
-525,526,3165,Central Park West & W 72 St,40.77575319,-73.97603963,Manhattan
-526,527,3165,Central Park West & W 72 St,40.77579377,-73.97620574,Manhattan
-527,528,3165,Central Park West & W 72 St,40.77579377,-73.97620574,Manhattan
-528,529,3172,W 74 St & Columbus Ave,40.7785669,-73.97754961,Manhattan
-529,530,3145,E 84 St & Park Ave,40.77862688,-73.95772073,Manhattan
-530,531,3166,Riverside Dr & W 72 St ,40.78057799,-73.98562431,Manhattan
-531,532,3178,Riverside Dr & W 78 St,40.78414472,-73.98362492,Manhattan
+index,station.id,station.name,latitude,longitude,boro
+1,255,NYCBS Depot - SSP,40.646768,-74.01651,Outer Boro
+2,3044,Albany Ave & Fulton St,40.6800105,-73.938475,Outer Boro
+3,396,Lefferts Pl & Franklin Ave,40.68034,-73.95577,Outer Boro
+4,396,Lefferts Pl & Franklin Ave,40.68034242,-73.95576894,Outer Boro
+5,396,Lefferts Pl & Franklin Ave,40.68034242,-73.95576894,Outer Boro
+6,396,Lefferts Pl & Franklin Ave,40.68034242,-73.95576894,Outer Boro
+7,396,Lefferts Pl & Franklin Ave,40.68034242,-73.95576894,Outer Boro
+8,437,Macon St & Nostrand Ave,40.68098339,-73.95004798,Outer Boro
+9,436,Hancock St & Bedford Ave,40.68216564,-73.95399026,Outer Boro
+10,436,Hancock St & Bedford Ave,40.68216564,-73.95399026,Outer Boro
+11,365,Fulton St & Grand Ave,40.68223166,-73.9614583,Outer Boro
+12,384,Fulton St & Washington Ave,40.683048,-73.964915,Outer Boro
+13,384,Fulton St & Washington Ave,40.683048,-73.964915,Outer Boro
+14,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
+15,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
+16,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
+17,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
+18,467,Dean St & 4 Ave,40.68312489,-73.97895137,Outer Boro
+19,384,Fulton St & Waverly Ave,40.68317813,-73.9659641,Outer Boro
+20,384,Fulton St & Waverly Ave,40.68317813,-73.9659641,Outer Boro
+21,384,Fulton St & Waverly Ave,40.68317813,-73.9659641,Outer Boro
+22,384,Fulton St & Waverly Ave,40.68317813,-73.9659641,Outer Boro
+23,83,Atlantic Ave & Fort Greene Pl,40.68382604,-73.97632328,Outer Boro
+24,83,Atlantic Ave & Fort Greene Pl,40.68382604,-73.97632328,Outer Boro
+25,271,Ashland Pl & Hanson Pl,40.68528172,-73.97805813,Outer Boro
+26,271,Ashland Pl & Hanson Pl,40.68528172,-73.97805813,Outer Boro
+27,275,Washington Ave & Greene Ave,40.68650065,-73.96563307,Outer Boro
+28,120,Lexington Ave & Classon Ave,40.68676793,-73.95928168,Outer Boro
+29,120,Lexington Ave & Classon Ave,40.68676793,-73.95928168,Outer Boro
+30,298,3 Ave & Schermerhorn St,40.68683208,-73.9796772,Outer Boro
+31,274,Lafayette Ave & Fort Greene Pl,40.68691865,-73.976682,Outer Boro
+32,274,Lafayette Ave & Fort Greene Pl,40.68691865,-73.976682,Outer Boro
+33,416,Cumberland St & Lafayette Ave,40.68753406,-73.97265183,Outer Boro
+34,416,Cumberland St & Lafayette Ave,40.68753406,-73.97265183,Outer Boro
+35,416,Cumberland St & Lafayette Ave,40.68753406,-73.97265183,Outer Boro
+36,420,Clermont Ave & Lafayette Ave,40.68764484,-73.96968902,Outer Boro
+37,420,Clermont Ave & Lafayette Ave,40.68764484,-73.96968902,Outer Boro
+38,399,Lafayette Ave & St James Pl,40.68851534,-73.9647628,Outer Boro
+39,310,State St & Smith St,40.68926942,-73.98912867,Outer Boro
+40,310,State St & Smith St,40.68926942,-73.98912867,Outer Boro
+41,258,DeKalb Ave & Vanderbilt Ave,40.68940747,-73.96885458,Outer Boro
+42,3054,Greene Ave & Throop Ave,40.6894932,-73.942061,Outer Boro
+43,241,DeKalb Ave & S Portland Ave,40.68981035,-73.97493121,Outer Boro
+44,324,DeKalb Ave & Hudson Ave,40.689888,-73.981013,Outer Boro
+45,324,DeKalb Ave & Hudson Ave,40.689888,-73.981013,Outer Boro
+46,157,Henry St & Atlantic Ave,40.69089272,-73.99612349,Outer Boro
+47,157,Henry St & Atlantic Ave,40.69089272,-73.99612349,Outer Boro
+48,157,Henry St & Atlantic Ave,40.69089272,-73.99612349,Outer Boro
+49,157,Henry St & Atlantic Ave,40.69089272,-73.99612349,Outer Boro
+50,398,Atlantic Ave & Furman St,40.69165183,-73.9999786,Outer Boro
+51,398,Atlantic Ave & Furman St,40.69165183,-73.9999786,Outer Boro
+52,262,Washington Park,40.6917823,-73.9737299,Outer Boro
+53,244,Willoughby Ave & Hall St,40.69196035,-73.96536851,Outer Boro
+54,244,Willoughby Ave & Hall St,40.69196035,-73.96536851,Outer Boro
+55,239,Willoughby St & Fleet St,40.69196566,-73.9813018,Outer Boro
+56,390,Duffield St & Willoughby St,40.69221589,-73.9842844,Outer Boro
+57,143,Clinton St & Joralemon St,40.69239502,-73.99337909,Outer Boro
+58,143,Clinton St & Joralemon St,40.69239502,-73.99337909,Outer Boro
+59,233,Joralemon St & Adams St,40.69246277,-73.98963911,Outer Boro
+60,233,Joralemon St & Adams St,40.69246277,-73.98963911,Outer Boro
+61,233,Joralemon St & Adams St,40.69246277,-73.98963911,Outer Boro
+62,3181,Soissons Landing,40.692609,-74.016398,Manhattan
+63,3181,Soissons Landing,40.692609,-74.016398,Manhattan
+64,270,Adelphi St & Myrtle Ave,40.69308257,-73.97178913,Outer Boro
+65,270,Adelphi St & Myrtle Ave,40.69308257,-73.97178913,Outer Boro
+66,366,Clinton Ave & Myrtle Ave,40.693261,-73.968896,Outer Boro
+67,366,Clinton Ave & Myrtle Ave,40.693261,-73.968896,Outer Boro
+68,366,Clinton Ave & Myrtle Ave,40.693261,-73.968896,Outer Boro
+69,245,Myrtle Ave & St Edwards St,40.69327018,-73.97703874,Outer Boro
+70,373,Willoughby Ave & Walworth St,40.69331716,-73.95381995,Outer Boro
+71,373,Willoughby Ave & Walworth St,40.69331716,-73.95381995,Outer Boro
+72,3059,Pulaski St & Marcus Garvey Blvd,40.6933982,-73.939877,Outer Boro
+73,3059,Pulaski St & Marcus Garvey Blvd,40.6933982,-73.939877,Outer Boro
+74,314,Montague St & Clinton St,40.69424674,-73.99215922,Outer Boro
+75,3060,Willoughby Ave & Tompkins Ave,40.69425403,-73.94626915,Outer Boro
+76,261,Johnson St & Gold St,40.69474881,-73.98362464,Outer Boro
+77,233,Cadman Plaza W & Pierrepont St,40.69475701,-73.99052739,Outer Boro
+78,392,Jay St & Tech Pl,40.695065,-73.987167,Outer Boro
+79,392,Jay St & Tech Pl,40.695065,-73.987167,Outer Boro
+80,392,Jay St & Tech Pl,40.695065,-73.987167,Outer Boro
+81,406,Hicks St & Montague St,40.69512845,-73.99595065,Outer Boro
+82,406,Hicks St & Montague St,40.69512845,-73.99595065,Outer Boro
+83,3062,Myrtle Ave & Marcy Ave,40.69539817,-73.94954908,Outer Boro
+84,313,Washington Ave & Park Ave,40.69610226,-73.96751037,Outer Boro
+85,313,Washington Ave & Park Ave,40.69610226,-73.96751037,Outer Boro
+86,313,Washington Ave & Park Ave,40.69610226,-73.96751037,Outer Boro
+87,3064,Myrtle Ave & Lewis Ave,40.69681963,-73.93756926,Outer Boro
+88,3064,Myrtle Ave & Lewis Ave,40.69681963,-73.93756926,Outer Boro
+89,391,Clark St & Henry St,40.69760127,-73.99344559,Outer Boro
+90,242,Flushing Ave & Carlton Ave,40.69788349,-73.97350332,Outer Boro
+91,144,Nassau St & Navy St,40.69839895,-73.98068914,Outer Boro
+92,144,Nassau St & Navy St,40.69839895,-73.98068914,Outer Boro
+93,321,Cadman Plaza E & Red Cross Pl,40.69991755,-73.98971773,Outer Boro
+94,3065,Union Ave & Wallabout St,40.70029511,-73.95032283,Outer Boro
+95,216,Columbia Heights & Cranberry St,40.70037867,-73.99548059,Outer Boro
+96,216,Columbia Heights & Cranberry St,40.70037867,-73.99548059,Outer Boro
+97,259,South St & Whitehall St,40.70122128,-74.01234218,Manhattan
+98,259,South St & Whitehall St,40.70122128,-74.01234218,Manhattan
+99,259,South St & Whitehall St,40.70122128,-74.01234218,Manhattan
+100,430,York St & Jay St,40.7014851,-73.98656928,Outer Boro
+101,430,York St & Jay St,40.7014851,-73.98656928,Outer Boro
+102,430,York St & Jay St,40.7014851,-73.98656928,Outer Boro
+103,430,York St & Jay St,40.7014851,-73.98656928,Outer Boro
+104,418,Front St & Gold St,40.70224,-73.982578,Outer Boro
+105,418,Front St & Gold St,40.70224,-73.982578,Outer Boro
+106,2000,Front St & Washington St,40.70255,-73.9894,Outer Boro
+107,414,Pearl St & Anchorage Pl,40.70281858,-73.98765762,Outer Boro
+108,414,Pearl St & Anchorage Pl,40.70281858,-73.98765762,Outer Boro
+109,315,South St & Gouverneur Ln,40.70355,-74.0067,Manhattan
+110,315,South St & Gouverneur Ln,40.70355377,-74.00670227,Manhattan
+111,337,Old Slip & Front St,40.7037992,-74.00838676,Manhattan
+112,304,Broadway & Battery Pl,40.70463334,-74.01361706,Manhattan
+113,351,Front St & Maiden Ln,40.70530954,-74.00612572,Manhattan
+114,3073,Division Ave & Hooper St,40.70691254,-73.95441667,Outer Boro
+115,264,Maiden Ln & Pearl St,40.70706456,-74.00731853,Manhattan
+116,264,Maiden Ln & Pearl St,40.70706456,-74.00731853,Manhattan
+117,3075,Division Ave & Marcy Ave,40.70708701,-73.95796783,Outer Boro
+118,306,Cliff St & Fulton St,40.70823502,-74.00530063,Manhattan
+119,282,Kent Ave & S 11 St,40.70827295,-73.96834101,Outer Boro
+120,195,Liberty St & Broadway,40.70905623,-74.01043382,Manhattan
+121,316,Fulton St & William St,40.70955958,-74.00653609,Manhattan
+122,389,Broadway & Berry St,40.71044554,-73.96525063,Outer Boro
+123,389,Broadway & Berry St,40.71044554,-73.96525063,Outer Boro
+124,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
+125,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
+126,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
+127,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
+128,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
+129,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
+130,532,S 5 Pl & S 4 St,40.710451,-73.960876,Outer Boro
+131,224,Spruce St & Nassau St,40.71146364,-74.00552427,Manhattan
+132,224,Spruce St & Nassau St,40.71146364,-74.00552427,Manhattan
+133,224,Spruce St & Nassau St,40.71146364,-74.00552427,Manhattan
+134,3002,South End Ave & Liberty St,40.711512,-74.015756,Manhattan
+135,3081,Graham Ave & Grand St,40.711863,-73.944024,Outer Boro
+136,3081,Graham Ave & Grand St,40.711863,-73.944024,Outer Boro
+137,332,Cherry St,40.71219906,-73.97948148,Manhattan
+138,332,Cherry St,40.71219906,-73.97948148,Manhattan
+139,481,S 3 St & Bedford Ave,40.71260486,-73.96264403,Outer Boro
+140,387,Centre St & Chambers St,40.71273266,-74.0046073,Manhattan
+141,387,Centre St & Chambers St,40.71273266,-74.0046073,Manhattan
+142,387,Centre St & Chambers St,40.71273266,-74.0046073,Manhattan
+143,460,S 4 St & Wythe Ave,40.71285887,-73.96590294,Outer Boro
+144,471,Grand St & Havemeyer St,40.71286844,-73.95698119,Outer Boro
+145,471,Grand St & Havemeyer St,40.71286844,-73.95698119,Outer Boro
+146,417,Barclay St & Church St,40.71291224,-74.01020234,Manhattan
+147,308,St James Pl & Oliver St,40.71307916,-73.99851193,Manhattan
+148,308,St James Pl & Oliver St,40.71307916,-73.99851193,Manhattan
+149,319,Park Pl & Church St,40.71336124,-74.00937622,Manhattan
+150,319,Park Pl & Church St,40.71336124,-74.00937622,Manhattan
+151,295,Pike St & E Broadway,40.71406667,-73.99293911,Manhattan
+152,3087,Metropolitan Ave & Meeker Ave,40.71413311,-73.95234386,Outer Boro
+153,502,Henry St & Grand St,40.71422,-73.98135,Manhattan
+154,307,Canal St & Rutgers St,40.71427487,-73.98990025,Manhattan
+155,309,Murray St & West St,40.7149787,-74.013012,Manhattan
+156,309,Murray St & West St,40.7149787,-74.013012,Manhattan
+157,309,Murray St & West St,40.7149787,-74.013012,Manhattan
+158,309,Murray St & West St,40.7149787,-74.013012,Manhattan
+159,327,Vesey Pl & River Terrace,40.7153379,-74.01658354,Manhattan
+160,327,Vesey Pl & River Terrace,40.7153379,-74.01658354,Manhattan
+161,327,Vesey Pl & River Terrace,40.7153379,-74.01658354,Manhattan
+162,539,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,Outer Boro
+163,539,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,Outer Boro
+164,539,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,Outer Boro
+165,539,Metropolitan Ave & Bedford Ave,40.71535,-73.96024,Outer Boro
+166,147,Greenwich St & Warren St,40.71542197,-74.01121978,Manhattan
+167,350,Clinton St & Grand St,40.71559509,-73.9870295,Manhattan
+168,350,Clinton St & Grand St,40.71559509,-73.9870295,Manhattan
+169,412,Forsyth St & Canal St,40.7158155,-73.99422366,Manhattan
+170,356,Bialystoker Pl & Delancey St,40.71622644,-73.98261206,Manhattan
+171,146,Hudson St & Reade St,40.71625008,-74.0091059,Manhattan
+172,146,Hudson St & Reade St,40.71625008,-74.0091059,Manhattan
+173,146,Hudson St & Reade St,40.71625008,-74.0091059,Manhattan
+174,146,Hudson St & Reade St,40.71625008,-74.0091059,Manhattan
+175,2002,Wythe Ave & Metropolitan Ave,40.716887,-73.963198,Outer Boro
+176,2002,Wythe Ave & Metropolitan Ave,40.716887,-73.963198,Outer Boro
+177,2002,Wythe Ave & Metropolitan Ave,40.716887,-73.963198,Outer Boro
+178,3094,Graham Ave & Withers St,40.7169811,-73.94485918,Outer Boro
+179,311,Norfolk St & Broome St,40.7172274,-73.98802084,Manhattan
+180,3093,N 6 St & Bedford Ave,40.71745169,-73.95850939,Outer Boro
+181,276,Duane St & Greenwich St,40.71748752,-74.0104554,Manhattan
+182,426,West St & Chambers St,40.71754834,-74.01322069,Manhattan
+183,426,West St & Chambers St,40.71754834,-74.01322069,Manhattan
+184,426,West St & Chambers St,40.71754834,-74.01322069,Manhattan
+185,426,West St & Chambers St,40.71754834,-74.01322069,Manhattan
+186,3090,N 8 St & Driggs Ave,40.71774592,-73.95600096,Outer Boro
+187,341,Stanton St & Mangin St,40.71782143,-73.97628939,Manhattan
+188,341,Stanton St & Mangin St,40.71782143,-73.97628939,Manhattan
+189,349,Rivington St & Ridge St,40.71850211,-73.98329859,Manhattan
+190,531,Forsyth St & Broome St,40.71893904,-73.99266288,Manhattan
+191,531,Forsyth St & Broome St,40.71893904,-73.99266288,Manhattan
+192,531,Forsyth St & Broome St,40.71893904,-73.99266288,Manhattan
+193,3092,Berry St & N 8 St,40.7190095,-73.95852515,Outer Boro
+194,3092,Berry St & N 8 St,40.7190095,-73.95852515,Outer Boro
+195,268,Howard St & Centre St,40.71910537,-73.99973337,Manhattan
+196,268,Howard St & Centre St,40.71910537,-73.99973337,Manhattan
+197,79,Franklin St & W Broadway,40.71911552,-74.00666661,Manhattan
+198,79,Franklin St & W Broadway,40.71911552,-74.00666661,Manhattan
+199,79,Franklin St & W Broadway,40.71911552,-74.00666661,Manhattan
+200,401,Allen St & Rivington St,40.72019576,-73.98997825,Manhattan
+201,401,Allen St & Rivington St,40.72019576,-73.98997825,Manhattan
+202,410,Suffolk St & Stanton St,40.72066,-73.98518,Manhattan
+203,410,Suffolk St & Stanton St,40.72066442,-73.98517977,Manhattan
+204,410,Suffolk St & Stanton St,40.72066442,-73.98517977,Manhattan
+205,473,Rivington St & Chrystie St,40.72110063,-73.9919254,Manhattan
+206,473,Rivington St & Chrystie St,40.72110063,-73.9919254,Manhattan
+207,3099,Leonard St & Manhattan Ave,40.7215224,-73.94898266,Outer Boro
+208,3103,N 11 St & Wythe Ave,40.72153267,-73.95782357,Outer Boro
+209,3102,Driggs Ave & Lorimer St,40.72179134,-73.9504154,Outer Boro
+210,3102,Driggs Ave & Lorimer St,40.72179134,-73.9504154,Outer Boro
+211,151,Cleveland Pl & Spring St,40.7218158,-73.99720307,Manhattan
+212,151,Cleveland Pl & Spring St,40.7218158,-73.99720307,Manhattan
+213,151,Cleveland Pl & Spring St,40.7218158,-73.99720307,Manhattan
+214,151,Cleveland Pl & Spring St,40.7218158,-73.99720307,Manhattan
+215,248,Laight St & Hudson St,40.72185379,-74.00771779,Manhattan
+216,248,Laight St & Hudson St,40.72185379,-74.00771779,Manhattan
+217,312,Allen St & E Houston St,40.722055,-73.989111,Manhattan
+218,312,Allen St & E Houston St,40.722055,-73.989111,Manhattan
+219,301,E 2 St & Avenue B,40.72217444,-73.98368779,Manhattan
+220,301,E 2 St & Avenue B,40.72217444,-73.98368779,Manhattan
+221,411,E 6 St & Avenue D,40.72228087,-73.97668709,Manhattan
+222,265,Stanton St & Chrystie St,40.72229346,-73.99147535,Manhattan
+223,265,Stanton St & Chrystie St,40.72229346,-73.99147535,Manhattan
+224,377,6 Ave & Canal St,40.72243797,-74.00566443,Manhattan
+225,393,E 5 St & Avenue C,40.72299208,-73.97995466,Manhattan
+226,3107,Bedford Ave & Nassau Ave,40.72311651,-73.95212324,Outer Boro
+227,251,Mott St & Prince St,40.72317958,-73.99480012,Manhattan
+228,251,Mott St & Prince St,40.72317958,-73.99480012,Manhattan
+229,251,Mott St & Prince St,40.72317958,-73.99480012,Manhattan
+230,3106,Driggs Ave & N Henry St,40.72325,-73.94308,Outer Boro
+231,3106,Driggs Ave & N Henry St,40.72325,-73.94308,Outer Boro
+232,303,Mercer St & Spring St,40.72362738,-73.99949601,Manhattan
+233,328,Watts St & Greenwich St,40.72405549,-74.00965965,Manhattan
+234,2004,6 Ave & Broome St,40.724399,-74.004704,Manhattan
+235,2004,6 Ave & Broome St,40.724399,-74.004704,Manhattan
+236,317,E 6 St & Avenue B,40.72453734,-73.98185424,Manhattan
+237,317,E 6 St & Avenue B,40.72453734,-73.98185424,Manhattan
+238,250,Lafayette St & Jersey St,40.72456089,-73.99565293,Manhattan
+239,428,E 3 St & 1 Ave,40.72467721,-73.98783413,Manhattan
+240,428,E 3 St & 1 Ave,40.72467721,-73.98783413,Manhattan
+241,428,E 3 St & 1 Ave,40.72467721,-73.98783413,Manhattan
+242,428,E 3 St & 1 Ave,40.72467721,-73.98783413,Manhattan
+243,348,W Broadway & Spring St,40.72490985,-74.00154702,Manhattan
+244,348,W Broadway & Spring St,40.72490985,-74.00154702,Manhattan
+245,403,E 2 St & 2 Ave,40.72502876,-73.99069656,Manhattan
+246,403,E 2 St & 2 Ave,40.72502876,-73.99069656,Manhattan
+247,403,E 2 St & 2 Ave,40.72502876,-73.99069656,Manhattan
+248,403,E 2 St & 2 Ave,40.72502876,-73.99069656,Manhattan
+249,3108,Nassau Ave & Russell St,40.72557,-73.94434,Outer Boro
+250,3111,Norman Ave & Leonard St,40.7258483,-73.95064893,Outer Boro
+251,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
+252,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
+253,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
+254,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
+255,432,E 7 St & Avenue A,40.72621788,-73.98379855,Manhattan
+256,432,E 7 St & Avenue A,40.72622,-73.9838,Manhattan
+257,439,E 4 St & 2 Ave,40.7262807,-73.98978041,Manhattan
+258,439,E 4 St & 2 Ave,40.7262807,-73.98978041,Manhattan
+259,375,Mercer St & Bleecker St,40.72679454,-73.99695094,Manhattan
+260,375,Mercer St & Bleecker St,40.72679454,-73.99695094,Manhattan
+261,375,Mercer St & Bleecker St,40.72679454,-73.99695094,Manhattan
+262,128,MacDougal St & Prince St,40.72710258,-74.00297088,Manhattan
+263,128,MacDougal St & Prince St,40.72710258,-74.00297088,Manhattan
+264,445,E 10 St & Avenue A,40.72740794,-73.98142006,Manhattan
+265,229,Great Jones St,40.72743423,-73.99379025,Manhattan
+266,438,St Marks Pl & 1 Ave,40.72779126,-73.98564945,Manhattan
+267,300,Shevchenko Pl & E 6 St,40.728145,-73.990214,Manhattan
+268,236,St Marks Pl & 2 Ave,40.7284186,-73.98713956,Manhattan
+269,236,St Marks Pl & 2 Ave,40.7284186,-73.98713956,Manhattan
+270,347,W Houston St & Hudson St,40.72873888,-74.00748842,Manhattan
+271,335,Washington Pl & Broadway,40.72903917,-73.99404649,Manhattan
+272,335,Washington Pl & Broadway,40.72903917,-73.99404649,Manhattan
+273,161,LaGuardia Pl & W 3 St,40.72917025,-73.99810231,Manhattan
+274,161,LaGuardia Pl & W 3 St,40.72917025,-73.99810231,Manhattan
+275,161,LaGuardia Pl & W 3 St,40.72917025,-73.99810231,Manhattan
+276,511,E 14 St & Avenue B,40.72938685,-73.97772429,Manhattan
+277,511,E 14 St & Avenue B,40.72938685,-73.97772429,Manhattan
+278,511,E 14 St & Avenue B,40.72938685,-73.97772429,Manhattan
+279,326,E 11 St & 1 Ave,40.72953837,-73.98426726,Manhattan
+280,3113,Greenpoint Ave & Manhattan Ave,40.73026,-73.95394,Outer Boro
+281,3113,Greenpoint Ave & Manhattan Ave,40.73026,-73.95394,Outer Boro
+282,293,Lafayette St & E 8 St,40.73028666,-73.9907647,Manhattan
+283,293,Lafayette St & E 8 St,40.73028666,-73.9907647,Manhattan
+284,293,Lafayette St & E 8 St,40.73028666,-73.9907647,Manhattan
+285,368,Carmine St & 6 Ave,40.73038599,-74.00214988,Manhattan
+286,368,Carmine St & 6 Ave,40.73038599,-74.00214988,Manhattan
+287,368,Carmine St & 6 Ave,40.73038599,-74.00214988,Manhattan
+288,368,Carmine St & 6 Ave,40.73038599,-74.00214988,Manhattan
+289,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
+290,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
+291,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
+292,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
+293,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
+294,237,E 11 St & 2 Ave,40.73047309,-73.98672378,Manhattan
+295,294,Washington Square E,40.73049393,-73.9957214,Manhattan
+296,127,Barrow St & Hudson St,40.73172428,-74.00674436,Manhattan
+297,127,Barrow St & Hudson St,40.73172428,-74.00674436,Manhattan
+298,127,Barrow St & Hudson St,40.73172428,-74.00674436,Manhattan
+299,127,Barrow St & Hudson St,40.73172428,-74.00674436,Manhattan
+300,504,1 Ave & E 15 St,40.73221853,-73.98165557,Manhattan
+301,504,1 Ave & E 15 St,40.73221853,-73.98165557,Manhattan
+302,504,1 Ave & E 15 St,40.73221853,-73.98165557,Manhattan
+303,504,1 Ave & E 15 St,40.73222,-73.98166,Manhattan
+304,483,E 12 St & 3 Ave,40.73223272,-73.98889957,Manhattan
+305,483,E 12 St & 3 Ave,40.73223272,-73.98889957,Manhattan
+306,483,E 12 St & 3 Ave,40.73223272,-73.98889957,Manhattan
+307,483,E 12 St & 3 Ave,40.73223272,-73.98889957,Manhattan
+308,3115,India St & Manhattan Ave,40.73232194,-73.9550858,Outer Boro
+309,357,E 11 St & Broadway,40.73261787,-73.99158043,Manhattan
+310,357,E 11 St & Broadway,40.73261787,-73.99158043,Manhattan
+311,357,E 11 St & Broadway,40.73261787,-73.99158043,Manhattan
+312,358,Christopher St & Greenwich St,40.73291553,-74.00711384,Manhattan
+313,487,E 20 St & FDR Drive,40.73314259,-73.97573881,Manhattan
+314,380,W 4 St & 7 Ave S,40.73401143,-74.00293877,Manhattan
+315,380,W 4 St & 7 Ave S,40.73401143,-74.00293877,Manhattan
+316,285,Broadway & E 14 St,40.73454567,-73.99074142,Manhattan
+317,382,University Pl & E 14 St,40.73492695,-73.99200509,Manhattan
+318,382,University Pl & E 14 St,40.73492695,-73.99200509,Manhattan
+319,382,University Pl & E 14 St,40.73492695,-73.99200509,Manhattan
+320,383,Greenwich Ave & Charles St,40.735238,-74.000271,Manhattan
+321,247,Perry St & Bleecker St,40.73535398,-74.00483091,Manhattan
+322,325,E 19 St & 3 Ave,40.73624527,-73.98473765,Manhattan
+323,345,W 13 St & 6 Ave,40.73649403,-73.99704374,Manhattan
+324,345,W 13 St & 6 Ave,40.73649403,-73.99704374,Manhattan
+325,345,W 13 St & 6 Ave,40.73649403,-73.99704374,Manhattan
+326,497,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan
+327,497,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan
+328,497,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan
+329,497,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan
+330,496,E 16 St & 5 Ave,40.73726186,-73.99238967,Manhattan
+331,284,Greenwich Ave & 8 Ave,40.73901691,-74.00263761,Manhattan
+332,284,Greenwich Ave & 8 Ave,40.73901691,-74.00263761,Manhattan
+333,507,E 25 St & 2 Ave,40.73912601,-73.97973776,Manhattan
+334,507,E 25 St & 2 Ave,40.73912601,-73.97973776,Manhattan
+335,507,E 25 St & 2 Ave,40.73912601,-73.97973776,Manhattan
+336,405,Washington St & Gansevoort St,40.739323,-74.008119,Manhattan
+337,405,Washington St & Gansevoort St,40.739323,-74.008119,Manhattan
+338,405,Washington St & Gansevoort St,40.739323,-74.008119,Manhattan
+339,482,W 15 St & 7 Ave,40.73935542,-73.99931783,Manhattan
+340,482,W 15 St & 7 Ave,40.73935542,-73.99931783,Manhattan
+341,2012,E 27 St & 1 Ave,40.739445,-73.976806,Manhattan
+342,168,W 18 St & 6 Ave,40.73971301,-73.99456405,Manhattan
+343,168,W 18 St & 6 Ave,40.73971301,-73.99456405,Manhattan
+344,402,Broadway & E 22 St,40.7403432,-73.98955109,Manhattan
+345,404,9 Ave & W 14 St,40.7405826,-74.00550867,Manhattan
+346,404,9 Ave & W 14 St,40.7405826,-74.00550867,Manhattan
+347,404,9 Ave & W 14 St,40.7405826,-74.00550867,Manhattan
+348,491,E 24 St & Park Ave S,40.74096374,-73.98602213,Manhattan
+349,540,Lexington Ave & E 26 St,40.74147286,-73.98320928,Manhattan
+350,540,Lexington Ave & E 26 St,40.74147286,-73.98320928,Manhattan
+351,3120,Center Blvd & Borden Ave,40.74161,-73.96044,Outer Boro
+352,435,W 21 St & 6 Ave,40.74173969,-73.99415556,Manhattan
+353,116,W 17 St & 8 Ave,40.74177603,-74.00149746,Manhattan
+354,225,W 14 St & The High Line,40.74195138,-74.00803013,Manhattan
+355,225,W 14 St & The High Line,40.74195138,-74.00803013,Manhattan
+356,225,W 14 St & The High Line,40.74195138,-74.00803013,Manhattan
+357,463,9 Ave & W 16 St,40.74207,-74.00443,Manhattan
+358,3119,Vernon Blvd & 50 Ave,40.74232744,-73.95411749,Outer Boro
+359,444,Broadway & W 24 St,40.74235,-73.98915,Manhattan
+360,444,Broadway & W 24 St,40.7423543,-73.98915076,Manhattan
+361,444,Broadway & W 24 St,40.7423543,-73.98915076,Manhattan
+362,334,W 20 St & 7 Ave,40.74238787,-73.99726235,Manhattan
+363,334,W 20 St & 7 Ave,40.74238787,-73.99726235,Manhattan
+364,334,W 20 St & 7 Ave,40.74238787,-73.99726235,Manhattan
+365,334,W 20 St & 7 Ave,40.74238787,-73.99726235,Manhattan
+366,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
+367,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
+368,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
+369,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
+370,528,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan
+371,434,9 Ave & W 18 St,40.74317449,-74.00366443,Manhattan
+372,470,W 20 St & 8 Ave,40.74345335,-74.00004031,Manhattan
+373,470,W 20 St & 8 Ave,40.74345335,-74.00004031,Manhattan
+374,476,E 31 St & 3 Ave,40.74394314,-73.97966069,Manhattan
+375,476,E 31 St & 3 Ave,40.74394314,-73.97966069,Manhattan
+376,466,W 25 St & 6 Ave,40.74395411,-73.99144871,Manhattan
+377,466,W 25 St & 6 Ave,40.74395411,-73.99144871,Manhattan
+378,501,FDR Drive & E 35 St,40.744219,-73.97121214,Manhattan
+379,546,E 30 St & Park Ave S,40.74444921,-73.98303529,Manhattan
+380,546,E 30 St & Park Ave S,40.74444921,-73.98303529,Manhattan
+381,3123,31 St & Thomson Ave,40.74469738,-73.93540375,Outer Boro
+382,453,W 22 St & 8 Ave,40.74475148,-73.99915362,Manhattan
+383,446,W 24 St & 7 Ave,40.74487634,-73.99529885,Manhattan
+384,474,5 Ave & E 29 St,40.7451677,-73.98683077,Manhattan
+385,509,9 Ave & W 22 St,40.7454973,-74.00197139,Manhattan
+386,509,9 Ave & W 22 St,40.7454973,-74.00197139,Manhattan
+387,472,E 32 St & Park Ave,40.7457121,-73.98194829,Manhattan
+388,472,E 32 St & Park Ave,40.7457121,-73.98194829,Manhattan
+389,486,Broadway & W 29 St,40.7462009,-73.98855723,Manhattan
+390,462,W 22 St & 10 Ave,40.74691959,-74.00451887,Manhattan
+391,462,W 22 St & 10 Ave,40.74691959,-74.00451887,Manhattan
+392,3126,44 Dr & Jackson Ave,40.74718234,-73.9432635,Outer Boro
+393,3126,44 Dr & Jackson Ave,40.74718234,-73.9432635,Outer Boro
+394,3124,46 Ave & 5 St,40.74731,-73.95451,Outer Boro
+395,3124,46 Ave & 5 St,40.74731,-73.95451,Outer Boro
+396,494,W 26 St & 8 Ave,40.74734825,-73.99723551,Manhattan
+397,494,W 26 St & 8 Ave,40.74734825,-73.99723551,Manhattan
+398,160,E 37 St & Lexington Ave,40.748238,-73.978311,Manhattan
+399,498,Broadway & W 32 St,40.74854862,-73.98808416,Manhattan
+400,167,E 39 St & 3 Ave,40.7489006,-73.97604882,Manhattan
+401,167,E 39 St & 3 Ave,40.7489006,-73.97604882,Manhattan
+402,379,W 31 St & 7 Ave,40.749156,-73.9916,Manhattan
+403,379,W 31 St & 7 Ave,40.749156,-73.9916,Manhattan
+404,379,W 31 St & 7 Ave,40.749156,-73.9916,Manhattan
+405,3127,9 St & 44 Rd,40.74966,-73.9521,Outer Boro
+406,388,W 26 St & 10 Ave,40.74971775,-74.00295035,Manhattan
+407,388,W 26 St & 10 Ave,40.74971775,-74.00295035,Manhattan
+408,388,W 26 St & 10 Ave,40.74972,-74.00295,Manhattan
+409,455,1 Ave & E 44 St,40.75001986,-73.96905301,Manhattan
+410,512,W 29 St & 9 Ave,40.7500727,-73.99839279,Manhattan
+411,512,W 29 St & 9 Ave,40.7500727,-73.99839279,Manhattan
+412,492,W 33 St & 7 Ave,40.75019995,-73.99093085,Manhattan
+413,521,8 Ave & W 31 St,40.75044999,-73.99481051,Manhattan
+414,521,8 Ave & W 31 St,40.75044999,-73.99481051,Manhattan
+415,521,8 Ave & W 31 St,40.75044999,-73.99481051,Manhattan
+416,3128,21 St & 43 Ave,40.75052534,-73.94594845,Outer Boro
+417,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
+418,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
+419,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
+420,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
+421,489,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan
+422,458,11 Ave & W 27 St,40.751396,-74.005226,Manhattan
+423,458,11 Ave & W 27 St,40.751396,-74.005226,Manhattan
+424,458,11 Ave & W 27 St,40.751396,-74.005226,Manhattan
+425,517,Pershing Square S,40.75149263,-73.97798848,Manhattan
+426,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
+427,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
+428,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
+429,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
+430,490,8 Ave & W 33 St,40.751551,-73.993934,Manhattan
+431,517,Pershing Square South,40.751581,-73.97791,Manhattan
+432,517,Pershing Square South,40.751581,-73.97791,Manhattan
+433,362,Broadway & W 37 St,40.75172632,-73.98753523,Manhattan
+434,519,Pershing Square North,40.751873,-73.977706,Manhattan
+435,519,Pershing Square North,40.751873,-73.977706,Manhattan
+436,519,Pershing Square N,40.75188406,-73.97770164,Manhattan
+437,519,Pershing Square N,40.75188406,-73.97770164,Manhattan
+438,516,E 47 St & 1 Ave,40.75206862,-73.96784384,Manhattan
+439,533,Broadway & W 39 St,40.75299641,-73.98721619,Manhattan
+440,533,Broadway & W 39 St,40.75299641,-73.98721619,Manhattan
+441,318,E 43 St & Vanderbilt Ave,40.75320159,-73.9779874,Manhattan
+442,318,E 43 St & Vanderbilt Ave,40.75320159,-73.9779874,Manhattan
+443,164,E 47 St & 2 Ave,40.75323098,-73.97032517,Manhattan
+444,164,E 47 St & 2 Ave,40.75323098,-73.97032517,Manhattan
+445,164,E 47 St & 2 Ave,40.75323098,-73.97032517,Manhattan
+446,454,E 51 St & 1 Ave,40.75455731,-73.96592976,Manhattan
+447,523,W 38 St & 8 Ave,40.75466591,-73.99138152,Manhattan
+448,523,W 38 St & 8 Ave,40.75466591,-73.99138152,Manhattan
+449,359,E 47 St & Park Ave,40.75510267,-73.97498696,Manhattan
+450,359,E 47 St & Park Ave,40.75510267,-73.97498696,Manhattan
+451,465,Broadway & W 41 St,40.75513557,-73.98658032,Manhattan
+452,465,Broadway & W 41 St,40.75513557,-73.98658032,Manhattan
+453,477,W 41 St & 8 Ave,40.75640548,-73.9900262,Manhattan
+454,477,W 41 St & 8 Ave,40.75640548,-73.9900262,Manhattan
+455,477,W 41 St & 8 Ave,40.75640548,-73.9900262,Manhattan
+456,488,W 39 St & 9 Ave,40.75645824,-73.99372222,Manhattan
+457,448,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan
+458,448,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan
+459,448,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan
+460,448,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan
+461,529,W 42 St & 8 Ave,40.7575699,-73.99098507,Manhattan
+462,385,E 55 St & 2 Ave,40.75797322,-73.96603308,Manhattan
+463,367,E 53 St & Lexington Ave,40.75828065,-73.97069431,Manhattan
+464,3236,PABT Valet,40.75898481,-73.99379969,Manhattan
+465,464,E 56 St & 3 Ave,40.75934501,-73.96759673,Manhattan
+466,2023,E 55 St & Lexington Ave,40.75968085,-73.97031366,Manhattan
+467,520,W 52 St & 5 Ave,40.75992262,-73.97648516,Manhattan
+468,515,W 43 St & 10 Ave,40.76009437,-73.99461843,Manhattan
+469,479,9 Ave & W 45 St,40.76019252,-73.9912551,Manhattan
+470,479,9 Ave & W 45 St,40.76019252,-73.9912551,Manhattan
+471,290,2 Ave & E 58 St,40.76020258,-73.96478473,Manhattan
+472,290,2 Ave & E 58 St,40.76020258,-73.96478473,Manhattan
+473,290,2 Ave & E 58 St,40.76020258,-73.96478473,Manhattan
+474,173,Broadway & W 49 St,40.76064679,-73.98442659,Manhattan
+475,173,Broadway & W 49 St,40.76064679,-73.98442659,Manhattan
+476,510,W 51 St & 6 Ave,40.7606597,-73.98042047,Manhattan
+477,305,E 58 St & 3 Ave,40.76095756,-73.96724467,Manhattan
+478,137,E 56 St & Madison Ave,40.761628,-73.972924,Manhattan
+479,137,E 56 St & Madison Ave,40.761628,-73.972924,Manhattan
+480,450,W 49 St & 8 Ave,40.76227205,-73.98788205,Manhattan
+481,450,W 49 St & 8 Ave,40.76227205,-73.98788205,Manhattan
+482,500,Broadway & W 51 St,40.76228826,-73.98336183,Manhattan
+483,500,Broadway & W 51 St,40.76228826,-73.98336183,Manhattan
+484,495,W 47 St & 10 Ave,40.76269882,-73.99301222,Manhattan
+485,495,W 47 St & 10 Ave,40.76269882,-73.99301222,Manhattan
+486,495,W 47 St & 10 Ave,40.76269882,-73.99301222,Manhattan
+487,508,W 46 St & 11 Ave,40.76341379,-73.99667444,Manhattan
+488,508,W 46 St & 11 Ave,40.76341379,-73.99667444,Manhattan
+489,508,W 46 St & 11 Ave,40.76341379,-73.99667444,Manhattan
+490,469,Broadway & W 53 St,40.76344058,-73.98268129,Manhattan
+491,469,Broadway & W 53 St,40.76344058,-73.98268129,Manhattan
+492,447,8 Ave & W 52 St,40.76370739,-73.9851615,Manhattan
+493,281,Grand Army Plaza & Central Park S,40.7643971,-73.97371465,Manhattan
+494,281,Grand Army Plaza & Central Park S,40.7643971,-73.97371465,Manhattan
+495,449,W 52 St & 9 Ave,40.76461837,-73.98789473,Manhattan
+496,449,W 52 St & 9 Ave,40.76461837,-73.98789473,Manhattan
+497,449,W 52 St & 9 Ave,40.76461837,-73.98789473,Manhattan
+498,468,Broadway & W 55 St,40.7652654,-73.98192338,Manhattan
+499,468,Broadway & W 55 St,40.7652654,-73.98192338,Manhattan
+500,423,W 54 St & 9 Ave,40.76584941,-73.98690506,Manhattan
+501,2006,Central Park S & 6 Ave,40.76590936,-73.97634151,Manhattan
+502,2006,Central Park S & 6 Ave,40.76590936,-73.97634151,Manhattan
+503,480,W 53 St & 10 Ave,40.76669671,-73.99061728,Manhattan
+504,457,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan
+505,457,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan
+506,457,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan
+507,457,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan
+508,72,W 52 St & 11 Ave,40.76727216,-73.99392888,Manhattan
+509,72,W 52 St & 11 Ave,40.76727216,-73.99392888,Manhattan
+510,72,W 52 St & 11 Ave,40.76727216,-73.99392888,Manhattan
+511,72,W 52 St & 11 Ave,40.76727216,-73.99392888,Manhattan
+512,3133,E 67 St & Lexington Ave,40.76734259,-73.96485865,Manhattan
+513,3133,E 67 St & Lexington Ave,40.76734259,-73.96485865,Manhattan
+514,513,W 56 St & 10 Ave,40.768254,-73.988639,Manhattan
+515,513,W 56 St & 10 Ave,40.768254,-73.988639,Manhattan
+516,499,Broadway & W 60 St,40.76915505,-73.98191841,Manhattan
+517,499,Broadway & W 60 St,40.76915505,-73.98191841,Manhattan
+518,499,Broadway & W 60 St,40.76915505,-73.98191841,Manhattan
+519,499,Broadway & W 60 St,40.76915505,-73.98191841,Manhattan
+520,422,W 59 St & 10 Ave,40.770513,-73.988038,Manhattan
+521,3139,E 72 St & Park Ave,40.77122923,-73.96432627,Manhattan
+522,3163,Central Park West & W 68 St,40.7734066,-73.97782542,Manhattan
+523,3150,E 85 St & York Ave,40.77536905,-73.94803392,Manhattan
+524,3146,E 81 St & 3 Ave,40.77573034,-73.9567526,Manhattan
+525,3165,Central Park West & W 72 St,40.77575319,-73.97603963,Manhattan
+526,3165,Central Park West & W 72 St,40.77575319,-73.97603963,Manhattan
+527,3165,Central Park West & W 72 St,40.77579377,-73.97620574,Manhattan
+528,3165,Central Park West & W 72 St,40.77579377,-73.97620574,Manhattan
+529,3172,W 74 St & Columbus Ave,40.7785669,-73.97754961,Manhattan
+530,3145,E 84 St & Park Ave,40.77862688,-73.95772073,Manhattan
+531,3166,Riverside Dr & W 72 St ,40.78057799,-73.98562431,Manhattan
+532,3178,Riverside Dr & W 78 St,40.78414472,-73.98362492,Manhattan
