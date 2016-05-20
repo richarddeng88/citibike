@@ -97,12 +97,12 @@ write.csv(rank, file="citibike/hot_station_ranking.csv",row.names = F)
 ########## 6. manhattan in and out #################################
 #df <- read.csv("C:/Users/Richard/Desktop/citibike/citibike newest data/2016citibike.csv",stringsAsFactors = F )
 df <- select(df, -starttime,-stoptime)
-station <- distinct(df, end.station.name)
+station <- distinct(df, start.station.id)
 uni_station <- select(station, start.station.id, start.station.name,start.station.latitude,start.station.longitude)
 names(uni_station) <- c("station.id","station.name","latitude","longitude")
-write.csv(uni_station, file="citibike/station.csv",row.names = F)
+write.csv(uni_station, file="citibike/2013stations.csv",row.names = F)
 
-#build up a unique station file. 
+# take out one day data. 
 one_day <- filter(df, date=="2016-03-31")
 write.csv(one_day, file="citibike/one_day.csv",row.names = F)
 

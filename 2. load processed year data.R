@@ -1,9 +1,9 @@
 
 ## READ THE DATA INTO R - 07/2013 TO PRESENT #####################
-df2013 <- read.csv("citibike/2013to082014citibike.csv",stringsAsFactors = F)
-df2014 <- read.csv("citibike/092014to122014citibike.csv",stringsAsFactors = F)
-df2015 <- read.csv("citibike/2015citibike.csv",stringsAsFactors = F)
-df2016 <- read.csv("citibike/2016citibike.csv",stringsAsFactors = F)
+df2013 <- read.csv("data/citibike/2013to082014citibike.csv",stringsAsFactors = F)
+df2014 <- read.csv("data/citibike/092014to122014citibike.csv",stringsAsFactors = F)
+df2015 <- read.csv("data/citibike/2015citibike.csv",stringsAsFactors = F)
+df2016 <- read.csv("data/citibike/2016citibike.csv",stringsAsFactors = F)
 
 df <- rbind(df2013,df2014,df2015,df2016)
 df <- rm(df2013,df2014,df2015,df2016)
