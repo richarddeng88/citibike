@@ -12,6 +12,7 @@ station <- s2015
 station$index <- seq(1,dim(station)[1])
 write.csv(station, "citibike/station_for_map.csv", row.names = F)
 
+
 ## after geocoding the file, load back then data and change clean boro names
 station <- read.csv("citibike/station_for_map.csv", stringsAsFactors = F)
 station[station$boro=="Kings County","boro"] <- "Brooklyn"
@@ -25,15 +26,38 @@ df <- df2016 # load the data from save.data using 2016 data (2m records)
 df$date <- as.Date(df$starttime)
 df$count <- 1
 days <- df %>% distinct(date)
-daily_trips <- df %>% group_by(start.station.id) %>% summarize(daily_trips = sum(count)/dim(days)[1]) 
+daily_trips <- df %>% group_by(start.station.id) %>% summarize(daily_trips = round(sum(count)/dim(days)[1])+1) 
 station <- merge(station, daily_trips, by.x = "station.id", by.y = "start.station.id", all = T)
-#write.csv(station, "citibike/station_for_map.csv", row.names = F)
+write.csv(station, "citibike/station_for_map1.csv", row.names = F)
 
 
 ### calculate the station popularity ranking indicator
+df$date <- as.Date(df$starttime) # load the full df data
+df$count <- 1
+df <- select(df, tripduration,start.station.id,start.station.name,end.station.id,gender,date,count)
+df$ym <- format(df$date, "%Y-%m")
+
+by_station_start <- df %>% group_by(ym, start.station.id) %>% summarize(trips=sum(count)) %>% arrange(desc(trips))
+top10 <- filter(by_station_start, row_number() <= 100)
+top10$count <- 1
+top10 <- group_by(top10, start.station.id)
+a <- summarize(top10, num=sum(count))
+rank_start <- arrange(a, desc(num))
+
+by_station_stop <- df %>% group_by(ym, end.station.id) %>% summarize(trips=sum(count)) %>% arrange(desc(trips))
+top10 <- filter(by_station_stop, row_number() <= 100)
+top10$count <- 1
+top10 <- group_by(top10, end.station.id)
+b <- summarize(top10, num=sum(count))
+rank_end <- arrange(b, desc(num))
 
 
-
+station <- read.csv("citibike/station_for_map1.csv", stringsAsFactors = F)
+station <- merge(station, rank_start, by.x="station.id", by.y = "start.station.id", all.x = T, all.y=F)
+station[is.na(station$num),]$num <- 0
+station$rank_score <- (station$num + 3)*10
+station <- select(station, -num)
+write.csv(station, "citibike/station_for_map2.csv", row.names = F)
 
 ### EDA
 hist(station$daily_trips)
