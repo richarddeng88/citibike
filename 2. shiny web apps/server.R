@@ -88,7 +88,7 @@ shinyServer( function(input, output,session) {
         } else {
             colorData <- station[[colorBy]]
             pal <- colorBin(c("red","darkviolet","darkblue","black"),
-                            colorData, 4, pretty = FALSE)
+                            colorData, 3, pretty = FALSE)
         }
         
         
@@ -125,8 +125,9 @@ shinyServer( function(input, output,session) {
                                      selectedZip$latitude, selectedZip$longitude
             ))), tags$br(),
             sprintf("The staion's name: %s", as.character(selectedZip$station.name)), tags$br(),
-            sprintf("The number of trips: %s", as.integer(selectedZip$daily_trips)), tags$br(),
-            sprintf("In service since: %s", as.character(selectedZip$year))
+            sprintf("In service since: %s", as.character(selectedZip$year)),tags$br(),
+            sprintf("Avarage daily trips: %s", as.integer(selectedZip$daily_trips)), tags$br(),
+            sprintf("Popularity score: %s", as.integer(selectedZip$rank_score))
         ))
         leafletProxy("map") %>% addPopups(lng, lat, content, layerId = zipcode)
     }

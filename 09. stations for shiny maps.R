@@ -55,9 +55,13 @@ rank_end <- arrange(b, desc(num))
 station <- read.csv("citibike/station_for_map1.csv", stringsAsFactors = F)
 station <- merge(station, rank_start, by.x="station.id", by.y = "start.station.id", all.x = T, all.y=F)
 station[is.na(station$num),]$num <- 0
-station$rank_score <- (station$num + 3)*10
+station$rank_score <- (station$num + 5)
 station <- select(station, -num)
 write.csv(station, "citibike/station_for_map2.csv", row.names = F)
+
+
+
+
 
 ### EDA
 hist(station$daily_trips)
