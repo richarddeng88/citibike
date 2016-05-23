@@ -1,5 +1,7 @@
 ###### 1.month trips calculated by my own data;#############################
-library(dplyr);library(ggplot2)
+library(RMySQL);library(dplyr);library(ggplot2)
+library(reshape2);library(zoo);library(scales);library(extrafont);library(grid);library(RPostgreSQL)
+library(ggmap);library(rgdal);library(maptools);library(readr);library(minpack.lm)
 df$date <- as.Date(df$starttime)
 df$count <- 1
 

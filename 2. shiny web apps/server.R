@@ -7,11 +7,42 @@ library(dplyr)
 library(ggplot2)
 
 station <- read.csv("station_for_map2.csv", stringsAsFactors = F)
-
+kk <- read.csv("hour_ex_for_shiny.csv", stringsAsFactors = F)
 
 shinyServer( function(input, output,session) { 
     
-    # Create the map
+    ### EDA PLOTING#####################
+    output$summary <- renderPrint({
+        print(paste("the starting time is",input$date[1], "the ending time is ",input$date[2]))
+    })
+    
+    data<- reactive({
+        dis <- switch(input$weekday,
+                      "Weekday" = 1,
+                      "Weekend" = 0)
+        gen <- switch(input$gender,
+                      "Male" = "male",
+                      "Female" = "female")
+        ff <- kk[kk$is_weekday==dis & kk$gender== gen & kk$hour>=input$hour[1] & kk$hour<=input$hour[2],]
+        #filter(kk, is_weekday==dis)
+        ff <- ff[ff$date>=input$date[1] & ff$date <= input$date[2],]
+        ff %>% group_by(hour) %>% summarize(trips= sum(trips)/(dim(ff)[1]/24))
+        
+    })
+    
+    
+    output$plot <- renderPlot({
+        
+        bb <- data()
+        ggplot(bb, aes(x=hour, y=trips, color="blue"))+
+            geom_bar(stat="identity",position="dodge",color="black")
+        
+    })
+    
+    
+    
+    
+    ##### Create the map##################################################
     output$map <- renderLeaflet({
         leaflet(station) %>%
             addTiles(
@@ -152,8 +183,8 @@ shinyServer( function(input, output,session) {
     set.seed(122)
     histdata <- rnorm(500)
     
-    output$plot1 <- renderPlot({
-        data <- histdata[seq_len(input$slider)]
+    output$pp1 <- renderPlot({
+        data <- iris[1:input$c,1]
         hist(data)
     })
     
