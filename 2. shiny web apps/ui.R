@@ -5,6 +5,7 @@ library(scales)
 library(lattice)
 library(dplyr)
 library(ggplot2)
+library(plotly)
 
 
 vars <- c(
@@ -81,19 +82,29 @@ shinyUI(dashboardPage(skin = "purple",
                                                        column(width=4,
                                                             box(width = NULL,
                                                                 title = "Controls:",
-                                                                dateRangeInput("date","Input date:",format = "yyyy-mm",start="2013-07-01",end= "2016-03-31", 
+                                                                dateRangeInput("date","Input date:",format = "yyyy-mm-dd",start="2013-07-01",end= "2016-03-31", 
                                                                                min = "2013-07-1",max = "2016-03-31"),
-                                                                sliderInput("hour", "Hours of a day:", 1, 24, value = c(1, 24)),
+                                                                sliderInput("hour", "Time of a day (12am - 12pm):", 0, 23, value = c(0, 23)),
                                                                 radioButtons("weekday","Is it weekend?", c("Weekday","Weekend")),
                                                                 radioButtons("gender","Gender:", c("Male","Female"))
                                                                 
                                                             )
                                                    ),
+                                                   
                                                    column(width = 8,
-                                                          box(  width = NULL, collapsible = TRUE,
-                                                                title = "Trips by Hours", status = "primary", solidHeader = TRUE,
-                                                                verbatimTextOutput("summary"),
-                                                                plotOutput("plot")
+                                                          tabBox(  width = NULL, 
+                                                              tabPanel(title = strong("Daily Trips by Hour"),
+#                                                                        collapsible = TRUE,
+#                                                                        status = "primary", solidHeader = TRUE,
+                                                                textOutput("date_start"),
+                                                                textOutput("date_end"),
+                                                                plotlyOutput("plot")
+                                                                ),
+                                                              tabPanel(title=strong("Daily Trips by Month"),
+                                                                textOutput("date_start1"),
+                                                                textOutput("date_end1"),
+                                                                plotlyOutput("plot1")
+                                                                       )
                                                                 )
                                                    )
                                                    )

@@ -15,6 +15,8 @@ df[df$weekday=="Saturday",]$is_weekday <- 0
 
 prop.table(table(df$gender))
 df<- df %>% filter(gender != "unknown")
+
+df$hour1 <- as.POSIXct(df$hour * 3600, origin = "1970-01-01", tz = "UTC")
 # calculate the data we need
 # day <- df %>% group_by(date) %>% summarize(trips = sum(count)) %>% 
 #     mutate(trips_m=rollsum(trips, k = 15, na.pad = TRUE, align = "right"))
@@ -27,6 +29,7 @@ ff <- df %>% group_by() %>% summarize(trips = sum(count))
 
 kk <- df %>% group_by(date,hour, gender, is_weekday) %>% summarize(trips = sum(count)) 
 kk <- as.data.frame(kk)
+kk$hour1 <- as.POSIXct(kk$hour * 3600, origin = "1970-01-01", tz = "UTC")
 write.csv(kk, file="c:/hour_ex_for_shiny.csv",row.names = F)
 
 #ploting
@@ -37,8 +40,9 @@ ggplot(data = day, aes(x = date, y =trips )) +
     scale_y_continuous("Citi Bike trips, trailing 15 days/Unit: thousands") +
     expand_limits(y = 0) 
 
-ggplot(data = filter(kk, is_weekday==0), aes(x = gender, y = trips)) +
+ggplot(data = filter(kk, is_weekday==0), aes(x = hour1, y = trips)) +
     geom_bar(stat="identity",position="dodge",color="red") +
-    labs(title="NYC BIKE TRIPS BY HOUR OF THE DAY",y="Avg hourly trips")
+    labs(title="NYC BIKE TRIPS BY HOUR OF THE DAY",y="Avg hourly trips")+
+    scale_x_datetime("", labels = date_format("%l %p")) 
 
 

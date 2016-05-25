@@ -1,10 +1,12 @@
 INSERT INTO stations (id, name, latitude, longitude)
-SELECT DISTINCT start_station_id, start_station_name, start_station_latitude, start_station_longitude
+SELECT DISTINCT start_station_id, start_station_name, start_station_latitude, 
+start_station_longitude
 FROM trips_raw
 WHERE start_station_id NOT IN (SELECT id FROM stations);
 
 INSERT INTO stations (id, name, latitude, longitude)
-SELECT DISTINCT end_station_id, end_station_name, end_station_latitude, end_station_longitude
+SELECT DISTINCT end_station_id, end_station_name, end_station_latitude, 
+end_station_longitude
 FROM trips_raw
 WHERE end_station_id NOT IN (SELECT id FROM stations);
 

@@ -5,6 +5,7 @@ library(scales)
 library(lattice)
 library(dplyr)
 library(ggplot2)
+library(plotly);library(zoo)
 
 station <- read.csv("station_for_map2.csv", stringsAsFactors = F)
 kk <- read.csv("hour_ex_for_shiny.csv", stringsAsFactors = F)
@@ -12,9 +13,10 @@ kk <- read.csv("hour_ex_for_shiny.csv", stringsAsFactors = F)
 shinyServer( function(input, output,session) { 
     
     ### EDA PLOTING#####################
-    output$summary <- renderPrint({
-        print(paste("the starting time is",input$date[1], "the ending time is ",input$date[2]))
-    })
+    output$date_start <- renderText(paste("The starting date is: ", input$date[1]))
+    output$date_end <- renderText(paste("The ending date is:  ", input$date[2]))
+    output$date_start1 <- renderText(paste("The starting date is: ", input$date[1]))
+    output$date_end1 <- renderText(paste("The ending date is:  ", input$date[2]))
     
     data<- reactive({
         dis <- switch(input$weekday,
@@ -26,19 +28,40 @@ shinyServer( function(input, output,session) {
         ff <- kk[kk$is_weekday==dis & kk$gender== gen & kk$hour>=input$hour[1] & kk$hour<=input$hour[2],]
         #filter(kk, is_weekday==dis)
         ff <- ff[ff$date>=input$date[1] & ff$date <= input$date[2],]
-        ff %>% group_by(hour) %>% summarize(trips= sum(trips)/(dim(ff)[1]/24))
+        
         
     })
     
     
-    output$plot <- renderPlot({
+    output$plot <- renderPlotly({
         
-        bb <- data()
-        ggplot(bb, aes(x=hour, y=trips, color="blue"))+
-            geom_bar(stat="identity",position="dodge",color="black")
+        ff <- data()
+        bb <- ff %>% group_by(hour) %>% summarize(trips= round(sum(trips)/(dim(ff)[1]/24))) %>% 
+            mutate(timestamp_for_x_axis = as.POSIXct(hour * 3600, origin = "1000-01-01", tz = "UTC"))
+        
+      g<- ggplot(bb, aes(x=timestamp_for_x_axis, y=trips))+
+            labs(title="NYC DAILY CITIBIKE TRIPS ") +
+            geom_bar(stat="identity",position="dodge",color="black") +
+            scale_x_datetime("", labels = date_format("%l %p")) 
+        ggplotly(g)
         
     })
     
+    output$plot1 <- renderPlotly({
+        
+        ff <- data()
+        bb <- ff %>% group_by(date) %>% summarize(trips= sum(trips)/1000) %>% 
+            mutate(trips_m=rollsum(trips, k = 15, na.pad = TRUE, align = "right"))
+        bb$date <- as.Date(bb$date)
+        
+        g <- ggplot(bb, aes(x=date, y=trips_m))+
+                labs(title="NYC MONTHLY CITIBIKE TRIPS (Unit:Thousand)") +
+                geom_line(size = 1, color = "darkgreen") +
+                scale_x_date("Month") +
+                scale_y_continuous("Trips") +
+                expand_limits(y = 0) 
+        ggplotly(g)
+    })
     
     
     
