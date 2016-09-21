@@ -7,7 +7,7 @@ dbListFields(mydb, 'tripdata')
 
 #Running Queries:
 t <- dbSendQuery(mydb, 'select * from nyctrip')
-citi = fetch(t, n=-1)
+employees = fetch(t, n=-1)
 
 ## 
 library(dplyr)
