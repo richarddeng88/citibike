@@ -59,8 +59,7 @@ shinyUI(dashboardPage(skin = "purple",
                               menuItem("About", tabName = "about", icon=icon("mortar-board"),
                                        menuSubItem("Source Code (Github)", icon = icon("file-code-o"), 
                                                    href = "https://github.com/richarddeng88"),
-                                       menuSubItem("Linkin Profile", icon = icon("file-code-o"), 
-                                                   href = "https://linkedin.com/in/richarddeng88"))
+                                       menuSubItem("others", icon = icon("file-code-o")))
 #                               menuItem("Source Code (Github) ", icon = icon("file-code-o"), 
 #                                        href = "https://github.com/richarddeng88"),
 #                               menuItem("Linkin Profile ", icon = icon("file-code-o"), 
